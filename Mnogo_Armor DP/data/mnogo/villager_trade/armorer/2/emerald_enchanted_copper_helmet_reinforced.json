@@ -1,0 +1,63 @@
+{
+  "gives": {
+    "id": "minecraft:copper_helmet"
+  },
+  "given_item_modifiers": [
+    {
+      "function": "set_attributes",
+      "modifiers": [
+        {
+          "id": "mnogo:copper_helmet_reinforced_armor",
+          "attribute": "minecraft:armor",
+          "operation": "add_value",
+          "amount": 3,
+          "slot": "armor"
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "set_components",
+      "components": {
+        "minecraft:rarity": "uncommon",
+        "minecraft:item_model": "mnogo:copper_helmet_reinforced",
+        "minecraft:item_name": "Медный усиленный шлем",
+        "minecraft:equippable": {
+          "slot": "head",
+          "asset_id": "mnogo:copper_helmet_reinforced"
+        }
+      }
+    },
+    {
+      "function": "minecraft:enchant_with_levels",
+      "include_additional_cost_component": true,
+      "levels": {
+        "type": "minecraft:uniform",
+        "max": 19.0,
+        "min": 5.0
+      },
+      "options": "#minecraft:on_traded_equipment"
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:copper_helmet",
+        "predicates": {
+          "minecraft:enchantments": [
+            {}
+          ]
+        }
+      },
+      "on_fail": {
+        "function": "minecraft:discard"
+      }
+    }
+  ],
+  "max_uses": 3.0,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 2.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 15.0
+}

@@ -1,0 +1,84 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "iron_axe",
+          "functions": [
+            {
+              "function": "set_lore",
+              "lore": [
+                "",
+                {
+                  "text": "Когда в ведущей руке:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " Урон при атаке: 10",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " Скорость атаки: 0.8",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "id": "mnogo:iron_sekira_damage",
+                  "attribute": "minecraft:attack_damage",
+                  "operation": "add_value",
+                  "amount": 9.0,
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "mnogo:iron_sekira_speed",
+                  "attribute": "minecraft:attack_speed",
+                  "operation": "add_value",
+                  "amount": -3.2,
+                  "slot": "mainhand",
+                  "display": {
+                    "type": "override",
+                    "value": "test"
+                  }
+                },
+                {
+                  "id": "mnogo:iron_sekira_efficiency",
+                  "attribute": "minecraft:mining_efficiency",
+                  "operation": "add_value",
+                  "amount": 5,
+                  "slot": "mainhand"
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "mnogo:iron_sekira",
+                "minecraft:item_name": "Железная секира",
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/iron_sekira"
+}

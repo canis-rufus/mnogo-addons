@@ -1,0 +1,104 @@
+{
+  "gives": {
+    "id": "minecraft:diamond_axe"
+  },
+  "given_item_modifiers": [
+    {
+      "function": "set_lore",
+      "lore": [
+        "",
+        {
+          "text": "Когда в ведущей руке:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": " Урон при атаке: 10",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": " Скорость атаки: 0.9",
+          "color": "dark_green",
+          "italic": false
+        }
+      ],
+      "mode": "replace_all"
+    },
+    {
+      "function": "set_attributes",
+      "modifiers": [
+        {
+          "id": "mnogo:diamond_sekira_damage",
+          "attribute": "minecraft:attack_damage",
+          "operation": "add_value",
+          "amount": 9.0,
+          "slot": "mainhand"
+        },
+        {
+          "id": "mnogo:diamond_sekira_speed",
+          "attribute": "minecraft:attack_speed",
+          "operation": "add_value",
+          "amount": -3.1,
+          "slot": "mainhand",
+          "display": {
+            "type": "override",
+            "value": "test"
+          }
+        },
+        {
+          "id": "mnogo:diamond_sekira_efficiency",
+          "attribute": "minecraft:mining_efficiency",
+          "operation": "add_value",
+          "amount": 7,
+          "slot": "mainhand"
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "set_components",
+      "components": {
+        "minecraft:rarity": "uncommon",
+        "minecraft:item_model": "mnogo:diamond_sekira",
+        "minecraft:item_name": "Алмазная секира",
+        "minecraft:tooltip_display": {
+          "hidden_components": [
+            "minecraft:attribute_modifiers"
+          ]
+        }
+      }
+    },
+    {
+      "function": "minecraft:enchant_with_levels",
+      "include_additional_cost_component": true,
+      "levels": {
+        "type": "minecraft:uniform",
+        "max": 19.0,
+        "min": 5.0
+      },
+      "options": "#minecraft:on_traded_equipment"
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:diamond_axe",
+        "predicates": {
+          "minecraft:enchantments": [
+            {}
+          ]
+        }
+      },
+      "on_fail": {
+        "function": "minecraft:discard"
+      }
+    }
+  ],
+  "max_uses": 3.0,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 12.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 30.0
+}

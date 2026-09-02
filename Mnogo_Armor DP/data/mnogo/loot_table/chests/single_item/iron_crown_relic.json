@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "iron_helmet",
+          "functions": [
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "id": "mnogo:iron_crown_relic_armor",
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 1,
+                  "slot": "armor"
+                },
+                {
+                  "id": "mnogo:iron_crown_relic_additional_damage",
+                  "attribute": "minecraft:attack_damage",
+                  "operation": "add_value",
+                  "amount": 1,
+                  "slot": "armor"
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "rare",
+                "minecraft:item_model": "mnogo:iron_crown_relic",
+                "minecraft:item_name": "Железная корона",
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "asset_id": "mnogo:iron_crown_relic"
+                }
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/iron_crown_relic"
+}

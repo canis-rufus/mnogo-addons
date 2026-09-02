@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "diamond_sword",
+          "functions": [
+            {
+              "function": "set_lore",
+              "lore": [
+                "",
+                {
+                  "text": "Когда в ведущей руке:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " Урон при атаке: 7",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " Скорость атаки: 1.7",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "id": "mnogo:diamond_saber_damage",
+                  "attribute": "minecraft:attack_damage",
+                  "operation": "add_value",
+                  "amount": 6.0,
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "mnogo:diamond_saber_speed",
+                  "attribute": "minecraft:attack_speed",
+                  "operation": "add_value",
+                  "amount": -2.3,
+                  "slot": "mainhand",
+                  "display": {
+                    "type": "override",
+                    "value": "test"
+                  }
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "mnogo:diamond_saber",
+                "minecraft:item_name": "Алмазная сабля",
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                }
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/diamond_saber"
+}

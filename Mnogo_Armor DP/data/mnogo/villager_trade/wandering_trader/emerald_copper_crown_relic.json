@@ -1,0 +1,47 @@
+{
+  "gives": {
+    "id": "minecraft:copper_helmet"
+  },
+  "given_item_modifiers": [
+    {
+      "function": "set_attributes",
+      "modifiers": [
+        {
+          "id": "mnogo:copper_crown_relic_armor",
+          "attribute": "minecraft:armor",
+          "operation": "add_value",
+          "amount": 1,
+          "slot": "armor"
+        },
+        {
+          "id": "mnogo:copper_crown_relic_interaction_range",
+          "attribute": "minecraft:block_interaction_range",
+          "operation": "add_value",
+          "amount": 2,
+          "slot": "armor"
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "set_components",
+      "components": {
+        "minecraft:rarity": "rare",
+        "minecraft:item_model": "mnogo:copper_crown_relic",
+        "minecraft:item_name": "Медная корона",
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:equippable": {
+          "slot": "head",
+          "asset_id": "mnogo:copper_crown_relic"
+        }
+      }
+    }
+  ],
+  "max_uses": 1,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 39.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 30.0
+}

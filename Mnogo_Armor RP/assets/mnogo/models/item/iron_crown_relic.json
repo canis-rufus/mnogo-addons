@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "mnogo:item/iron_crown_relic"
+  },
+  "parent": "minecraft:item/generated"
+}
