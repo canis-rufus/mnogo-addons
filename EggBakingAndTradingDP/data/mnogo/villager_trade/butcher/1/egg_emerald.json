@@ -1,0 +1,35 @@
+{
+  "gives": {
+    "id": "minecraft:emerald"
+  },
+  "max_uses": 16.0,
+  "reputation_discount": 0.05,
+  "merchant_predicate": {
+    "condition": "any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:predicates": {
+            "minecraft:villager/variant": "minecraft:plains"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:predicates": {
+            "minecraft:villager/variant": "minecraft:swamp"
+          }
+        }
+      }
+    ]
+  },
+  "wants": {
+    "count": 16.0,
+    "id": "minecraft:egg"
+  },
+  "xp": 2.0
+}

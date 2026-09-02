@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "group": "cooked_egg",
+  "show_notification": true,
+  "ingredient": "blue_egg",
+  "result": {
+    "id": "minecraft:cooked_chicken",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "Жаренное яйцо",
+      "minecraft:item_model": "mnogo:cooked_egg",
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 2.4
+      }
+    }
+  },
+  "experience": 0.35
+}

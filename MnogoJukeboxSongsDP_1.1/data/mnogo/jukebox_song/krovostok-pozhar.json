@@ -1,0 +1,8 @@
+{
+ "sound_event": {
+  "sound_id": "mnogo:cassette.krovostok-pozhar"
+ },
+ "description": "Кровосток - Пожар",
+ "length_in_seconds": 132,
+ "comparator_output": 15
+}

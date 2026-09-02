@@ -1,0 +1,8 @@
+{
+ "sound_event": {
+  "sound_id": "mnogo:cassette.pnevmoslon-dajte_mrachno_pogrustit"
+ },
+ "description": "Пневмослон - Дайте мрачно погрустить",
+ "length_in_seconds": 253,
+ "comparator_output": 15
+}

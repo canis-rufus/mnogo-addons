@@ -1,0 +1,585 @@
+{
+ "type": "minecraft:chest",
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:heart_of_the_sea"
+    }
+   ],
+   "rolls": 1.0
+  },
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "functions": [
+      {
+       "add": false,
+       "count": {
+        "type": "minecraft:uniform",
+        "max": 4.0,
+        "min": 1.0
+       },
+       "function": "minecraft:set_count"
+      }
+     ],
+     "name": "minecraft:iron_ingot",
+     "weight": 20
+    },
+    {
+     "type": "minecraft:item",
+     "functions": [
+      {
+       "add": false,
+       "count": {
+        "type": "minecraft:uniform",
+        "max": 4.0,
+        "min": 1.0
+       },
+       "function": "minecraft:set_count"
+      }
+     ],
+     "name": "minecraft:gold_ingot",
+     "weight": 10
+    },
+    {
+     "type": "minecraft:item",
+     "functions": [
+      {
+       "add": false,
+       "count": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 1.0
+       },
+       "function": "minecraft:set_count"
+      }
+     ],
+     "name": "minecraft:tnt",
+     "weight": 5
+    }
+   ],
+   "rolls": {
+    "type": "minecraft:uniform",
+    "max": 8.0,
+    "min": 5.0
+   }
+  },
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "functions": [
+      {
+       "add": false,
+       "count": {
+        "type": "minecraft:uniform",
+        "max": 8.0,
+        "min": 4.0
+       },
+       "function": "minecraft:set_count"
+      }
+     ],
+     "name": "minecraft:emerald",
+     "weight": 5
+    },
+    {
+     "type": "minecraft:item",
+     "functions": [
+      {
+       "add": false,
+       "count": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 1.0
+       },
+       "function": "minecraft:set_count"
+      }
+     ],
+     "name": "minecraft:diamond",
+     "weight": 5
+    },
+    {
+     "type": "minecraft:item",
+     "functions": [
+      {
+       "add": false,
+       "count": {
+        "type": "minecraft:uniform",
+        "max": 5.0,
+        "min": 1.0
+       },
+       "function": "minecraft:set_count"
+      }
+     ],
+     "name": "minecraft:prismarine_crystals",
+     "weight": 5
+    }
+   ],
+   "rolls": {
+    "type": "minecraft:uniform",
+    "max": 3.0,
+    "min": 1.0
+   }
+  },
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:leather_chestplate"
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:iron_sword"
+    }
+   ],
+   "rolls": {
+    "type": "minecraft:uniform",
+    "max": 1.0,
+    "min": 0.0
+   }
+  },
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "functions": [
+      {
+       "add": false,
+       "count": {
+        "type": "minecraft:uniform",
+        "max": 4.0,
+        "min": 2.0
+       },
+       "function": "minecraft:set_count"
+      }
+     ],
+     "name": "minecraft:cooked_cod"
+    },
+    {
+     "type": "minecraft:item",
+     "functions": [
+      {
+       "add": false,
+       "count": {
+        "type": "minecraft:uniform",
+        "max": 4.0,
+        "min": 2.0
+       },
+       "function": "minecraft:set_count"
+      }
+     ],
+     "name": "minecraft:cooked_salmon"
+    }
+   ],
+   "rolls": 2.0
+  },
+  {
+   "bonus_rolls": 0.0,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:potion"
+    }
+   ],
+   "functions": [
+    {
+     "function": "minecraft:set_potion",
+     "id": "minecraft:water_breathing"
+    }
+   ],
+   "rolls": {
+    "type": "minecraft:uniform",
+    "max": 2.0,
+    "min": 0.0
+   }
+  },
+  {
+   "rolls": 1,
+   "conditions": [
+    {
+     "chance": 0.25,
+     "condition": "minecraft:random_chance"
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_stal",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:2rbina_2rista-mama_ja_-_pank"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_ward",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:arsafes-on_the_wings_of_the_wind"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_ward",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:asking_alexandria-when_the_lights_come_on"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_ward",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:babymetal_electric_callboy-ratatata"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_ward",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:bloodywood_ft._raoul_kerr-ari_ari"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_cat",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:daft_punk-around_the_world"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_ward",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:dexdbell-dota"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_stal",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:infornal_fuck-pohorony_vikinga"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_stal",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:lida_serega_pirat-chsv_right_version_by_datezrealboi"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_cat",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:mandidextrous_maddy_v-deep_on_this"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_mall",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:pain-go_with_the_flow"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_wait",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:rammstein-adieu"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_ward",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:vector_of_underground-all_who_wanna_change_me"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_cat",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:venjent_feat._jax-1s__2s"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_strad",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:aljans-na_zare"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_strad",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:zatochka-moja_roza"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_strad",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:krovostok-pozhar"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_stal",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:nejromonah_feofan-v_nashej_veseloj_izbushke"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_chirp",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:plan_lomonosova-prostoj_vinegret"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_strad",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:pnevmoslon-dajte_mrachno_pogrustit"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_strad",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:potomuchto-tsvetok"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_strad",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:steklovata-novyj_god"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:music_disc_strad",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:jukebox_playable": {
+         "song": "mnogo:faktor_2-shalava"
+        },
+        "minecraft:item_name": "Кассета",
+        "minecraft:custom_model_data": 1
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "random_sequence": "minecraft:chests/buried_treasure"
+}

@@ -1,0 +1,8 @@
+{
+ "sound_event": {
+  "sound_id": "mnogo:cassette.zatochka-moja_roza"
+ },
+ "description": "Заточка - Моя роза",
+ "length_in_seconds": 205,
+ "comparator_output": 15
+}
