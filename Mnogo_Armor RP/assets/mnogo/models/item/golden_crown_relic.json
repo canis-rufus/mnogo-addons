@@ -1,6 +1,7 @@
 {
   "textures": {
-    "layer0": "mnogo:item/golden_crown_relic"
+    "layer0": "mnogo:item/golden_crown",
+    "layer1": "mnogo:item/helmet_ruby_relic_overlay"
   },
   "parent": "minecraft:item/generated"
 }

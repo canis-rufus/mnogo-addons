@@ -2,7 +2,10 @@
   "layers": {
     "humanoid": [
       {
-        "texture": "mnogo:iron_crown_relic"
+        "texture": "mnogo:iron_crown"
+      },
+      {
+        "texture": "mnogo:lazuli_relic_overlay"
       }
     ]
   }

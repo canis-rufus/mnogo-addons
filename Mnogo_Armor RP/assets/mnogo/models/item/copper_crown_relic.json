@@ -1,6 +1,7 @@
 {
   "textures": {
-    "layer0": "mnogo:item/copper_crown_relic"
+    "layer0": "mnogo:item/copper_crown",
+    "layer1": "mnogo:item/helmet_emerald_relic_overlay"
   },
   "parent": "minecraft:item/generated"
 }

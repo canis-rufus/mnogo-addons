@@ -2,7 +2,10 @@
   "layers": {
     "humanoid": [
       {
-        "texture": "mnogo:gold_crown_relic"
+        "texture": "mnogo:gold_crown"
+      },
+      {
+        "texture": "mnogo:ruby_relic_overlay"
       }
     ]
   }
