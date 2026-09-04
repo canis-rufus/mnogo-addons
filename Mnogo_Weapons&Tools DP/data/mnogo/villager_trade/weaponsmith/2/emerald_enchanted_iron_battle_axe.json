@@ -4,48 +4,8 @@
   },
   "given_item_modifiers": [
     {
-      "function": "set_lore",
-      "lore": [
-        "",
-        {
-          "text": "Когда в ведущей руке:",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "text": " Урон при атаке: 9",
-          "color": "dark_green",
-          "italic": false
-        },
-        {
-          "text": " Скорость атаки: 1",
-          "color": "dark_green",
-          "italic": false
-        }
-      ],
-      "mode": "replace_all"
-    },
-    {
       "function": "set_attributes",
       "modifiers": [
-        {
-          "id": "mnogo:iron_battle_axe_damage",
-          "attribute": "minecraft:attack_damage",
-          "operation": "add_value",
-          "amount": 8.0,
-          "slot": "mainhand"
-        },
-        {
-          "id": "mnogo:iron_battle_axe_speed",
-          "attribute": "minecraft:attack_speed",
-          "operation": "add_value",
-          "amount": -3.0,
-          "slot": "mainhand",
-          "display": {
-            "type": "override",
-            "value": "test"
-          }
-        },
         {
           "id": "mnogo:iron_battle_axe_efficiency",
           "attribute": "minecraft:mining_efficiency",
@@ -62,11 +22,38 @@
         "minecraft:rarity": "uncommon",
         "minecraft:item_model": "mnogo:iron_battle_axe",
         "minecraft:item_name": "Железный боевой топор",
-        "minecraft:tooltip_display": {
-          "hidden_components": [
-            "minecraft:attribute_modifiers"
-          ]
-        }
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "mnogo:iron_battle_axe_damage",
+            "type": "minecraft:attack_damage",
+            "slot": "mainhand",
+            "operation": "add_value",
+            "amount": 8.0,
+            "display": {
+              "type": "override",
+              "value": {
+                "text": " Урон при атаке: 9",
+                "color": "dark_green",
+                "italic": false
+              }
+            }
+          },
+          {
+            "id": "mnogo:iron_battle_axe_speed",
+            "type": "minecraft:attack_speed",
+            "slot": "mainhand",
+            "operation": "add_value",
+            "amount": -3.0,
+            "display": {
+              "type": "override",
+              "value": {
+                "text": " Скорость атаки: 1",
+                "color": "dark_green",
+                "italic": false
+              }
+            }
+          }
+        ]
       }
     },
     {

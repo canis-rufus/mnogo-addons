@@ -8,62 +8,43 @@
           "name": "minecraft:golden_sword",
           "functions": [
             {
-              "function": "set_lore",
-              "lore": [
-                "",
-                {
-                  "text": "Когда в ведущей руке:",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": " Урон при атаке: 4",
-                  "color": "dark_green",
-                  "italic": false
-                },
-                {
-                  "text": " Скорость атаки: 1.7",
-                  "color": "dark_green",
-                  "italic": false
-                }
-              ],
-              "mode": "replace_all"
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "id": "mnogo:gold_saber_damage",
-                  "attribute": "minecraft:attack_damage",
-                  "operation": "add_value",
-                  "amount": 3.0,
-                  "slot": "mainhand"
-                },
-                {
-                  "id": "mnogo:gold_saber_speed",
-                  "attribute": "minecraft:attack_speed",
-                  "operation": "add_value",
-                  "amount": -2.3,
-                  "slot": "mainhand",
-                  "display": {
-                    "type": "override",
-                    "value": "test"
-                  }
-                }
-              ],
-              "replace": true
-            },
-            {
               "function": "set_components",
               "components": {
                 "minecraft:rarity": "uncommon",
                 "minecraft:item_model": "mnogo:gold_saber",
                 "minecraft:item_name": "Золотая сабля",
-                "minecraft:tooltip_display": {
-                  "hidden_components": [
-                    "minecraft:attribute_modifiers"
-                  ]
-                }
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "mnogo:gold_saber_damage",
+                    "type": "minecraft:attack_damage",
+                    "slot": "mainhand",
+                    "operation": "add_value",
+                    "amount": 3.0,
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "text": " Урон при атаке: 4",
+                        "color": "dark_green",
+                        "italic": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "mnogo:gold_saber_speed",
+                    "type": "minecraft:attack_speed",
+                    "slot": "mainhand",
+                    "operation": "add_value",
+                    "amount": -2.3,
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "text": " Скорость атаки: 1.7",
+                        "color": "dark_green",
+                        "italic": false
+                      }
+                    }
+                  }
+                ]
               }
             }
           ],
