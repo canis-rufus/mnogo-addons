@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "id": "mnogo:leather_crown_relic_armor",
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 1,
+                  "slot": "armor"
+                },
+                {
+                  "id": "mnogo:leather_crown_relic_movement_speed",
+                  "attribute": "minecraft:movement_speed",
+                  "operation": "add_value",
+                  "amount": 0.05,
+                  "slot": "armor"
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "rare",
+                "minecraft:item_model": "mnogo:leather_crown_relic",
+                "minecraft:item_name": "Кожаная повязка",
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "asset_id": "mnogo:leather_crown_relic"
+                }
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/leather_crown_relic"
+}

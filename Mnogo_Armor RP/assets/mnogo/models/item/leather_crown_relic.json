@@ -1,0 +1,7 @@
+{
+  "textures": {
+    "layer0": "mnogo:item/leather_helmet_crown",
+    "layer1": "mnogo:item/leather_helmet_crown_relic_overlay"
+  },
+  "parent": "minecraft:item/generated"
+}
