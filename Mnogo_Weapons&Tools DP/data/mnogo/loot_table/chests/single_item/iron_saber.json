@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "iron_sword",
+          "name": "minecraft:iron_sword",
           "functions": [
             {
               "function": "set_lore",
