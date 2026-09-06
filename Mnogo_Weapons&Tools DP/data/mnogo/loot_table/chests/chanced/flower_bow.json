@@ -11,17 +11,21 @@
               "function": "set_components",
               "components": {
                 "minecraft:rarity": "rare",
-                "minecraft:item_model": "mnogo:nether_bow",
-                "minecraft:item_name": "Незерский лук",
-                "minecraft:max_damage": 450
+                "minecraft:item_model": "mnogo:flower_bow",
+                "minecraft:item_name": "Цветочный лук",
+                "minecraft:max_damage": 300
               }
             }
           ],
           "weight": 1
         }
       ],
-      "rolls": 1.0
+      "rolls": {
+        "type": "binomial",
+        "n": 1,
+        "p": 0.6
+      }
     }
   ],
-  "random_sequence": "mnogo:chests/single_item/nether_bow"
+  "random_sequence": "mnogo:chests/single_item/flower_bow"
 }

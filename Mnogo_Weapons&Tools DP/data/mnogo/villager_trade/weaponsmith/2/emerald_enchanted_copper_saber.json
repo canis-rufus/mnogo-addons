@@ -1,0 +1,78 @@
+{
+  "gives": {
+    "id": "minecraft:copper_sword"
+  },
+  "given_item_modifiers": [
+    {
+      "function": "set_components",
+      "components": {
+        "minecraft:rarity": "uncommon",
+        "minecraft:item_model": "mnogo:copper_saber",
+        "minecraft:item_name": "Медная сабля",
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "mnogo:copper_saber_damage",
+            "type": "minecraft:attack_damage",
+            "slot": "mainhand",
+            "operation": "add_value",
+            "amount": 4.0,
+            "display": {
+              "type": "override",
+              "value": {
+                "text": " Урон при атаке: 5",
+                "color": "dark_green",
+                "italic": false
+              }
+            }
+          },
+          {
+            "id": "mnogo:copper_saber_speed",
+            "type": "minecraft:attack_speed",
+            "slot": "mainhand",
+            "operation": "add_value",
+            "amount": -2.3,
+            "display": {
+              "type": "override",
+              "value": {
+                "text": " Скорость атаки: 1.7",
+                "color": "dark_green",
+                "italic": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "function": "minecraft:enchant_with_levels",
+      "include_additional_cost_component": true,
+      "levels": {
+        "type": "minecraft:uniform",
+        "max": 19.0,
+        "min": 5.0
+      },
+      "options": "#minecraft:on_traded_equipment"
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:copper_sword",
+        "predicates": {
+          "minecraft:enchantments": [
+            {}
+          ]
+        }
+      },
+      "on_fail": {
+        "function": "minecraft:discard"
+      }
+    }
+  ],
+  "max_uses": 3.0,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 5.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 15.0
+}

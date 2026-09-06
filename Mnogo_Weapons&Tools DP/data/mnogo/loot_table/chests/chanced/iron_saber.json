@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "mnogo:iron_saber",
+                "minecraft:item_name": "Железная сабля",
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "mnogo:iron_saber_damage",
+                    "type": "minecraft:attack_damage",
+                    "slot": "mainhand",
+                    "operation": "add_value",
+                    "amount": 5.0,
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "text": " Урон при атаке: 6",
+                        "color": "dark_green",
+                        "italic": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "mnogo:iron_saber_speed",
+                    "type": "minecraft:attack_speed",
+                    "slot": "mainhand",
+                    "operation": "add_value",
+                    "amount": -2.3,
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "text": " Скорость атаки: 1.7",
+                        "color": "dark_green",
+                        "italic": false
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": {
+        "type": "binomial",
+        "n": 1,
+        "p": 0.2
+      }
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/iron_saber"
+}

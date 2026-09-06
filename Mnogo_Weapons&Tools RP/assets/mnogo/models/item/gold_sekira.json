@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "mnogo:item/gold_sekira"
+  },
+  "parent": "minecraft:item/handheld"
+}

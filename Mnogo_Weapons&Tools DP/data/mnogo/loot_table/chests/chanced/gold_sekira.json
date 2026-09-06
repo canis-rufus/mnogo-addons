@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_axe",
+          "functions": [
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "id": "mnogo:gold_sekira_efficiency",
+                  "attribute": "minecraft:mining_efficiency",
+                  "operation": "add_value",
+                  "amount": 11,
+                  "slot": "mainhand"
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "mnogo:gold_sekira",
+                "minecraft:item_name": "Золотая секира",
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "mnogo:gold_sekira_damage",
+                    "type": "minecraft:attack_damage",
+                    "slot": "mainhand",
+                    "operation": "add_value",
+                    "amount": 7.0,
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "text": " Урон при атаке: 8",
+                        "color": "dark_green",
+                        "italic": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "mnogo:gold_sekira_speed",
+                    "type": "minecraft:attack_speed",
+                    "slot": "mainhand",
+                    "operation": "add_value",
+                    "amount": -3.1,
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "text": " Скорость атаки: 0.9",
+                        "color": "dark_green",
+                        "italic": false
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": {
+        "type": "binomial",
+        "n": 1,
+        "p": 0.2
+      }
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/gold_sekira"
+}

@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_axe",
+          "functions": [
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "id": "mnogo:copper_sekira_efficiency",
+                  "attribute": "minecraft:mining_efficiency",
+                  "operation": "add_value",
+                  "amount": 4,
+                  "slot": "mainhand"
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "mnogo:copper_sekira",
+                "minecraft:item_name": "Медная секира",
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "mnogo:copper_sekira_damage",
+                    "type": "minecraft:attack_damage",
+                    "slot": "mainhand",
+                    "operation": "add_value",
+                    "amount": 9.0,
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "text": " Урон при атаке: 10",
+                        "color": "dark_green",
+                        "italic": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "mnogo:copper_sekira_speed",
+                    "type": "minecraft:attack_speed",
+                    "slot": "mainhand",
+                    "operation": "add_value",
+                    "amount": -3.3,
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "text": " Скорость атаки: 0.7",
+                        "color": "dark_green",
+                        "italic": false
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/copper_sekira"
+}
