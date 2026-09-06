@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "id": "mnogo:diamond_crown_armor",
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 2,
+                  "slot": "armor"
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "mnogo:diamond_crown",
+                "minecraft:item_name": "Алмазная корона",
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "asset_id": "mnogo:diamond_crown"
+                }
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/diamond_crown"
+}

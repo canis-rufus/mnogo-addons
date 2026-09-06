@@ -1,0 +1,47 @@
+{
+  "gives": {
+    "id": "minecraft:diamond_helmet"
+  },
+  "given_item_modifiers": [
+    {
+      "function": "set_attributes",
+      "modifiers": [
+        {
+          "id": "mnogo:diamond_crown_relic_armor",
+          "attribute": "minecraft:armor",
+          "operation": "add_value",
+          "amount": 2,
+          "slot": "armor"
+        },
+        {
+          "id": "mnogo:diamond_crown_relic_speed",
+          "attribute": "minecraft:attack_speed",
+          "operation": "add_value",
+          "amount": 1.0,
+          "slot": "armor"
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "set_components",
+      "components": {
+        "minecraft:rarity": "rare",
+        "minecraft:item_model": "mnogo:diamond_crown_relic",
+        "minecraft:item_name": "Алмазная корона",
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:equippable": {
+          "slot": "head",
+          "asset_id": "mnogo:diamond_crown_relic"
+        }
+      }
+    }
+  ],
+  "max_uses": 1,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 60.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 40.0
+}

@@ -1,0 +1,12 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mnogo:diamond_crown"
+      },
+      {
+        "texture": "mnogo:amethyst_relic_overlay"
+      }
+    ]
+  }
+}

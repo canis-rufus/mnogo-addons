@@ -32,6 +32,33 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/diamond_crown"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/diamond_crown_relic"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/diamond_helmet_reinforced"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
           "value": "mnogo:chests/single_item/golden_crown"
         }
       ],

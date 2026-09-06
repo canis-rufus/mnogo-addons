@@ -1,0 +1,39 @@
+{
+  "gives": {
+    "id": "minecraft:leather_helmet"
+  },
+  "given_item_modifiers": [
+    {
+      "function": "set_attributes",
+      "modifiers": [
+        {
+          "id": "mnogo:leather_helmet_reinforced_armor",
+          "attribute": "minecraft:armor",
+          "operation": "add_value",
+          "amount": 1,
+          "slot": "armor"
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "set_components",
+      "components": {
+        "minecraft:rarity": "uncommon",
+        "minecraft:item_model": "mnogo:leather_helmet_reinforced",
+        "minecraft:item_name": "Кожаная маска",
+        "minecraft:equippable": {
+          "slot": "head",
+          "asset_id": "mnogo:leather_helmet_reinforced"
+        }
+      }
+    }
+  ],
+  "max_uses": 3.0,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 5.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 5.0
+}

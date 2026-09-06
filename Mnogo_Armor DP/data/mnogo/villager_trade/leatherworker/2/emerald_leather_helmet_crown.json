@@ -1,0 +1,26 @@
+{
+  "gives": {
+    "id": "minecraft:leather_helmet"
+  },
+  "given_item_modifiers": [
+    {
+      "function": "set_components",
+      "components": {
+        "minecraft:rarity": "uncommon",
+        "minecraft:item_model": "mnogo:leather_helmet_crown",
+        "minecraft:item_name": "Кожаная повязка",
+        "minecraft:equippable": {
+          "slot": "head",
+          "asset_id": "mnogo:leather_helmet_crown"
+        }
+      }
+    }
+  ],
+  "max_uses": 3.0,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 5.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 5.0
+}
