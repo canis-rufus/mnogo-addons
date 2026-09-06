@@ -163,35 +163,41 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/gold_saber",
+          "value": "mnogo:chests/chanced/copper_saber",
           "weight": 1
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/iron_saber",
+          "value": "mnogo:chests/chanced/gold_battle_axe",
           "weight": 1
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/copper_crown",
+          "value": "mnogo:chests/chanced/gold_saber",
           "weight": 1
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/iron_crown",
+          "value": "mnogo:chests/chanced/iron_saber",
           "weight": 1
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/potion_maker_book",
+          "value": "mnogo:chests/chanced/copper_crown",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/iron_crown",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/potion_maker_book",
           "weight": 1
         }
       ],
-      "rolls": {
-        "type": "binomial",
-        "n": 1,
-        "p": 0.2
-      }
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:chests/shipwreck_map"

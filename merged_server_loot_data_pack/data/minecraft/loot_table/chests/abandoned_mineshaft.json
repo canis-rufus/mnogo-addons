@@ -311,15 +311,11 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/extra_long_night_vision_potion",
+          "value": "mnogo:chests/chanced/extra_long_night_vision_potion",
           "weight": 1
         }
       ],
-      "rolls": {
-        "type": "binomial",
-        "n": 1,
-        "p": 0.2
-      }
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:chests/abandoned_mineshaft"

@@ -137,20 +137,26 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/copper_crown",
+          "value": "mnogo:chests/chanced/copper_battle_axe",
           "weight": 1
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/copper_helmet_reinforced",
+          "value": "mnogo:chests/chanced/copper_sekira",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/copper_crown",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/copper_helmet_reinforced",
           "weight": 1
         }
       ],
-      "rolls": {
-        "type": "binomial",
-        "n": 1,
-        "p": 0.2
-      }
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:chests/trial_chambers/intersection"

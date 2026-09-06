@@ -369,15 +369,16 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/iron_helmet_reinforced",
+          "value": "mnogo:chests/chanced/iron_helmet_reinforced",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/leather_helmet_crown",
           "weight": 1
         }
       ],
-      "rolls": {
-        "type": "binomial",
-        "n": 1,
-        "p": 0.2
-      }
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:chests/shipwreck_supply"

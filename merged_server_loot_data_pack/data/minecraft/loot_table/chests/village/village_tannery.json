@@ -9,13 +9,27 @@
             {
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
+                "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:redstone",
+          "name": "minecraft:leather"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
           "weight": 2
         },
         {
@@ -31,50 +45,16 @@
             }
           ],
           "name": "minecraft:bread",
-          "weight": 7
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:rotten_flesh",
-          "weight": 7
+          "name": "minecraft:leather_leggings",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:lapis_lazuli"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gold_ingot"
+          "name": "minecraft:saddle"
         },
         {
           "type": "minecraft:item",
@@ -93,30 +73,44 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 8.0,
-        "min": 3.0
+        "max": 5.0,
+        "min": 1.0
       }
     },
     {
       "entries": [
         {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bundle"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/extra_long_night_vision_potion",
+          "value": "mnogo:chests/chanced/leather_helmet_crown",
           "weight": 1
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/extra_long_regeneration_potion",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/potion_maker_book",
+          "value": "mnogo:chests/chanced/leather_helmet_reinforced",
           "weight": 1
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:chests/village/village_temple"
+  "random_sequence": "minecraft:chests/village/village_tannery"
 }
