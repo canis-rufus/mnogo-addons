@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "mnogo:item/ruby_sekira"
+  },
+  "parent": "minecraft:item/handheld"
+}

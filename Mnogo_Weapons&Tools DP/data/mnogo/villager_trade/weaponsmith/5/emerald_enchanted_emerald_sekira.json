@@ -1,0 +1,92 @@
+{
+  "gives": {
+    "id": "minecraft:diamond_axe"
+  },
+  "given_item_modifiers": [
+    {
+      "function": "set_attributes",
+      "modifiers": [
+        {
+          "id": "mnogo:emerald_sekira_efficiency",
+          "attribute": "minecraft:mining_efficiency",
+          "operation": "add_value",
+          "amount": 7,
+          "slot": "mainhand"
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "set_components",
+      "components": {
+        "minecraft:rarity": "rare",
+        "minecraft:item_model": "mnogo:emerald_sekira",
+        "minecraft:item_name": "Изумрудная секира",
+        "minecraft:max_damage": 781,
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "mnogo:emerald_sekira_damage",
+            "type": "minecraft:attack_damage",
+            "slot": "mainhand",
+            "operation": "add_value",
+            "amount": 9.0,
+            "display": {
+              "type": "override",
+              "value": {
+                "text": " Урон при атаке: 10",
+                "color": "dark_green",
+                "italic": false
+              }
+            }
+          },
+          {
+            "id": "mnogo:emerald_sekira_speed",
+            "type": "minecraft:attack_speed",
+            "slot": "mainhand",
+            "operation": "add_value",
+            "amount": -3.1,
+            "display": {
+              "type": "override",
+              "value": {
+                "text": " Скорость атаки: 0.9",
+                "color": "dark_green",
+                "italic": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "function": "minecraft:enchant_with_levels",
+      "include_additional_cost_component": true,
+      "levels": {
+        "type": "minecraft:uniform",
+        "max": 19.0,
+        "min": 5.0
+      },
+      "options": "#minecraft:on_traded_equipment"
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:diamond_axe",
+        "predicates": {
+          "minecraft:enchantments": [
+            {}
+          ]
+        }
+      },
+      "on_fail": {
+        "function": "minecraft:discard"
+      }
+    }
+  ],
+  "max_uses": 3.0,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 12.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 30.0
+}

@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "id": "mnogo:ruby_sekira_efficiency",
+                  "attribute": "minecraft:mining_efficiency",
+                  "operation": "add_value",
+                  "amount": 7,
+                  "slot": "mainhand"
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "rare",
+                "minecraft:item_model": "mnogo:ruby_sekira",
+                "minecraft:item_name": "Рубиновая секира",
+                "minecraft:max_damage": 781,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "mnogo:ruby_sekira_damage",
+                    "type": "minecraft:attack_damage",
+                    "slot": "mainhand",
+                    "operation": "add_value",
+                    "amount": 9.0,
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "text": " Урон при атаке: 10",
+                        "color": "dark_green",
+                        "italic": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "mnogo:ruby_sekira_speed",
+                    "type": "minecraft:attack_speed",
+                    "slot": "mainhand",
+                    "operation": "add_value",
+                    "amount": -3.1,
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "text": " Скорость атаки: 0.9",
+                        "color": "dark_green",
+                        "italic": false
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/ruby_sekira"
+}

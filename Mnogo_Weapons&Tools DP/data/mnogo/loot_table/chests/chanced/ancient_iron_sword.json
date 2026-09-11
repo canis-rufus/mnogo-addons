@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "mnogo:ancient_iron_sword",
+                "minecraft:item_name": "Древний железный меч",
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "mnogo:ancient_iron_sword_damage",
+                    "type": "minecraft:attack_damage",
+                    "slot": "mainhand",
+                    "operation": "add_value",
+                    "amount": 7.0,
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "text": " Урон при атаке: 8",
+                        "color": "dark_green",
+                        "italic": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "mnogo:ancient_iron_sword_speed",
+                    "type": "minecraft:attack_speed",
+                    "slot": "mainhand",
+                    "operation": "add_value",
+                    "amount": -2.3,
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "text": " Скорость атаки: 1.7",
+                        "color": "dark_green",
+                        "italic": false
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": {
+        "type": "binomial",
+        "n": 1,
+        "p": 0.2
+      }
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/ancient_iron_sword"
+}

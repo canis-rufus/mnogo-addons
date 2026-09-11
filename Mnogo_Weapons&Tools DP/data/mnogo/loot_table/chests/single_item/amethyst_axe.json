@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "mnogo:amethyst_axe",
+                "minecraft:item_name": "Аметистовый топор",
+                "minecraft:max_damage": 781
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/amethyst_axe"
+}

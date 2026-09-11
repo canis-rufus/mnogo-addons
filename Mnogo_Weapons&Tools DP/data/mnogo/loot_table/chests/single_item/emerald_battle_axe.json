@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "id": "mnogo:emerald_battle_axe_efficiency",
+                  "attribute": "minecraft:mining_efficiency",
+                  "operation": "add_value",
+                  "amount": 7,
+                  "slot": "mainhand"
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "mnogo:emerald_battle_axe",
+                "minecraft:item_name": "Изумрудный боевой топор",
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "mnogo:emerald_battle_axe_damage",
+                    "type": "minecraft:attack_damage",
+                    "slot": "mainhand",
+                    "operation": "add_value",
+                    "amount": 8.0,
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "text": " Урон при атаке: 9",
+                        "color": "dark_green",
+                        "italic": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "mnogo:emerald_battle_axe_speed",
+                    "type": "minecraft:attack_speed",
+                    "slot": "mainhand",
+                    "operation": "add_value",
+                    "amount": -2.9,
+                    "display": {
+                      "type": "override",
+                      "value": {
+                        "text": " Скорость атаки: 1.1",
+                        "color": "dark_green",
+                        "italic": false
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/emerald_battle_axe"
+}

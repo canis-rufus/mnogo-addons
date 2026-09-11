@@ -1,0 +1,68 @@
+{
+  "gives": {
+    "id": "minecraft:diamond_axe"
+  },
+  "given_item_modifiers": [
+    {
+      "function": "set_attributes",
+      "modifiers": [
+        {
+          "id": "mnogo:amethyst_sekira_efficiency",
+          "attribute": "minecraft:mining_efficiency",
+          "operation": "add_value",
+          "amount": 7,
+          "slot": "mainhand"
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "set_components",
+      "components": {
+        "minecraft:rarity": "rare",
+        "minecraft:item_model": "mnogo:amethyst_sekira",
+        "minecraft:item_name": "Аметистовая секира",
+        "minecraft:max_damage": 781,
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "mnogo:amethyst_sekira_damage",
+            "type": "minecraft:attack_damage",
+            "slot": "mainhand",
+            "operation": "add_value",
+            "amount": 9.0,
+            "display": {
+              "type": "override",
+              "value": {
+                "text": " Урон при атаке: 10",
+                "color": "dark_green",
+                "italic": false
+              }
+            }
+          },
+          {
+            "id": "mnogo:amethyst_sekira_speed",
+            "type": "minecraft:attack_speed",
+            "slot": "mainhand",
+            "operation": "add_value",
+            "amount": -3.1,
+            "display": {
+              "type": "override",
+              "value": {
+                "text": " Скорость атаки: 0.9",
+                "color": "dark_green",
+                "italic": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "max_uses": 3.0,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 12.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 20.0
+}

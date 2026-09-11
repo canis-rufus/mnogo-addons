@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_hoe",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "mnogo:amethyst_hoe",
+                "minecraft:item_name": "Аметистовая мотыга",
+                "minecraft:max_damage": 781
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": {
+        "type": "binomial",
+        "n": 1,
+        "p": 0.2
+      }
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/amethyst_hoe"
+}

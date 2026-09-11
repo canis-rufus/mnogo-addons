@@ -1,7 +1,34 @@
 {
   "values": [
+    "mnogo:weaponsmith/5/emerald_amethyst_battle_axe",
+    "mnogo:weaponsmith/5/emerald_enchanted_amethyst_battle_axe",
+    "mnogo:weaponsmith/5/emerald_amethyst_saber",
+    "mnogo:weaponsmith/5/emerald_enchanted_amethyst_saber",
+    "mnogo:weaponsmith/5/emerald_amethyst_sekira",
+    "mnogo:weaponsmith/5/emerald_enchanted_amethyst_sekira",
+    "mnogo:weaponsmith/5/emerald_amethyst_sword",
+    "mnogo:weaponsmith/5/emerald_enchanted_amethyst_sword",
+    "mnogo:weaponsmith/5/emerald_diamond_battle_axe",
     "mnogo:weaponsmith/5/emerald_enchanted_diamond_battle_axe",
+    "mnogo:weaponsmith/5/emerald_diamond_saber",
     "mnogo:weaponsmith/5/emerald_enchanted_diamond_saber",
-    "mnogo:weaponsmith/5/emerald_enchanted_diamond_sekira"
+    "mnogo:weaponsmith/5/emerald_diamond_sekira",
+    "mnogo:weaponsmith/5/emerald_enchanted_diamond_sekira",
+    "mnogo:weaponsmith/5/emerald_emerald_battle_axe",
+    "mnogo:weaponsmith/5/emerald_enchanted_emerald_battle_axe",
+    "mnogo:weaponsmith/5/emerald_emerald_saber",
+    "mnogo:weaponsmith/5/emerald_enchanted_emerald_saber",
+    "mnogo:weaponsmith/5/emerald_emerald_sekira",
+    "mnogo:weaponsmith/5/emerald_enchanted_emerald_sekira",
+    "mnogo:weaponsmith/5/emerald_emerald_sword",
+    "mnogo:weaponsmith/5/emerald_enchanted_emerald_sword",
+    "mnogo:weaponsmith/5/emerald_ruby_battle_axe",
+    "mnogo:weaponsmith/5/emerald_enchanted_ruby_battle_axe",
+    "mnogo:weaponsmith/5/emerald_ruby_saber",
+    "mnogo:weaponsmith/5/emerald_enchanted_ruby_saber",
+    "mnogo:weaponsmith/5/emerald_ruby_sekira",
+    "mnogo:weaponsmith/5/emerald_enchanted_ruby_sekira",
+    "mnogo:weaponsmith/5/emerald_ruby_sword",
+    "mnogo:weaponsmith/5/emerald_enchanted_ruby_sword"
   ]
 }

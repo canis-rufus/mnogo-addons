@@ -5,87 +5,6 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/copper_battle_axe"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/copper_saber"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/copper_sekira"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/diamond_battle_axe"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/diamond_saber"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/diamond_sekira"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/flower_bow"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/gold_battle_axe"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/gold_saber"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
           "value": "mnogo:chests/single_item/gold_sekira"
         }
       ],
@@ -123,6 +42,78 @@
         {
           "type": "minecraft:loot_table",
           "value": "mnogo:chests/single_item/nether_bow"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/ruby_axe"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/ruby_battle_axe"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/ruby_hoe"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/ruby_pickaxe"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/ruby_saber"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/ruby_sekira"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/ruby_shovel"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/ruby_sword"
         }
       ],
       "rolls": 1.0
