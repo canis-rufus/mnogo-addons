@@ -278,6 +278,11 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/ancient_iron_sword",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "mnogo:chests/chanced/iron_battle_axe",
           "weight": 1
         },

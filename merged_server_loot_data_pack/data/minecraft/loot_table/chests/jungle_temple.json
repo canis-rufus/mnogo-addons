@@ -180,6 +180,16 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/amethyst_battle_axe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/amethyst_sekira",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "mnogo:chests/chanced/diamond_battle_axe",
           "weight": 1
         },
@@ -190,7 +200,27 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/emerald_battle_axe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/emerald_sekira",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "mnogo:chests/chanced/flower_bow",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/ruby_battle_axe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/ruby_sekira",
           "weight": 1
         },
         {

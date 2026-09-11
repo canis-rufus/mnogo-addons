@@ -248,6 +248,16 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/ancient_iron_sword",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/drowned_iron_sword",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "mnogo:chests/chanced/extra_long_water_breathing_potion",
           "weight": 1
         },
