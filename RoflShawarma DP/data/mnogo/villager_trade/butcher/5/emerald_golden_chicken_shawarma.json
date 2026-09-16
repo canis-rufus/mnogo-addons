@@ -1,0 +1,43 @@
+{
+  "gives": {
+    "id": "minecraft:cooked_chicken"
+  },
+  "max_uses": 3.0,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 6,
+    "id": "minecraft:emerald"
+  },
+  "xp": 20.0,
+  "given_item_modifiers": [
+    {
+      "function": "set_components",
+      "components": {
+        "minecraft:rarity": "uncommon",
+        "minecraft:item_model": "mnogo:golden_chicken_shawarma",
+        "minecraft:item_name": "Золотая куриная шаурма",
+        "minecraft:consumable": {
+          "on_consume_effects": [
+            {
+              "type": "minecraft:apply_effects",
+              "effects": [
+                {
+                  "id": "minecraft:haste",
+                  "duration": 100
+                },
+                {
+                  "id": "minecraft:regeneration",
+                  "duration": 100
+                }
+              ]
+            }
+          ]
+        },
+        "minecraft:food": {
+          "nutrition": 8,
+          "saturation": 15.4
+        }
+      }
+    }
+  ]
+}

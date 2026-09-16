@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "golden_chicken_shawarma",
+  "show_notification": true,
+  "result": {
+    "id": "minecraft:cooked_chicken",
+    "count": 1,
+    "components": {
+      "minecraft:rarity": "uncommon",
+      "minecraft:item_model": "mnogo:golden_chicken_shawarma",
+      "minecraft:item_name": "Золотая куриная шаурма",
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:haste",
+                "duration": 100
+              },
+              {
+                "id": "minecraft:regeneration",
+                "duration": 100
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation": 15.4
+      }
+    }
+  },
+  "key": {
+    "C": "minecraft:cooked_chicken",
+    "G": "minecraft:gold_ingot",
+    "E": "minecraft:brown_egg",
+    "W": "minecraft:wheat",
+    "R": "minecraft:carrot"
+  },
+  "pattern": [
+    "G G",
+    "ECW",
+    "GRG"
+  ]
+}

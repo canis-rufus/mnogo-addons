@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_chicken",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "mnogo:chicken_shawarma",
+                "minecraft:item_name": "Куриная шаурма",
+                "minecraft:food": {
+                  "nutrition": 8,
+                  "saturation": 14.4
+                }
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/chicken_shawarma"
+}

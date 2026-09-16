@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_chicken",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "mnogo:golden_chicken_shawarma",
+                "minecraft:item_name": "Золотая куриная шаурма",
+                "minecraft:consumable": {
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:haste",
+                          "duration": 100
+                        },
+                        {
+                          "id": "minecraft:regeneration",
+                          "duration": 100
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 8,
+                  "saturation": 15.4
+                }
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/golden_chicken_shawarma"
+}

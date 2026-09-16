@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "chicken_shawarma",
+  "show_notification": true,
+  "result": {
+    "id": "minecraft:cooked_chicken",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "mnogo:chicken_shawarma",
+      "minecraft:item_name": "Куриная шаурма",
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation": 14.4
+      }
+    }
+  },
+  "ingredients": [
+    "minecraft:wheat",
+    "minecraft:carrot",
+    "minecraft:cooked_chicken",
+    "minecraft:brown_egg"
+  ]
+}

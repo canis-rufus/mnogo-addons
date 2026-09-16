@@ -1,0 +1,25 @@
+{
+  "gives": {
+    "id": "minecraft:cooked_chicken"
+  },
+  "max_uses": 3.0,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 6,
+    "id": "minecraft:emerald"
+  },
+  "xp": 20.0,
+  "given_item_modifiers": [
+    {
+      "function": "set_components",
+      "components": {
+        "minecraft:item_model": "mnogo:chicken_shawarma",
+        "minecraft:item_name": "Куриная шаурма",
+        "minecraft:food": {
+          "nutrition": 8,
+          "saturation": 14.4
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/chicken_shawarma"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/golden_chicken_shawarma"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mnogo:brown_egg_golden_shawarma"
+    ]
+  },
+  "criteria": {
+    "has_cooked_chicken": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cooked_chicken",
+            "components": {
+              "minecraft:item_model": "mnogo:chicken_shawarma"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_cooked_chicken"
+    ]
+  ]
+}
