@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mnogo:cooked_blue_egg"
+    ]
+  },
+  "criteria": {
+    "has_blue_egg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blue_egg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_blue_egg"
+    ]
+  ]
+}

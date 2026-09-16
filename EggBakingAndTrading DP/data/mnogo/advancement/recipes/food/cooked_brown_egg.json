@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mnogo:cooked_brown_egg"
+    ]
+  },
+  "criteria": {
+    "has_brown_egg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brown_egg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_brown_egg"
+    ]
+  ]
+}

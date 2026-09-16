@@ -1,9 +1,15 @@
 {
   "gives": {
+    "count": 1,
     "id": "minecraft:emerald"
   },
   "max_uses": 16.0,
-  "reputation_discount": 0.05,
+  "reputation_discount": 0.2,
+  "wants": {
+    "id": "minecraft:brown_egg",
+    "count": 16
+  },
+  "xp": 2.0,
   "merchant_predicate": {
     "condition": "any_of",
     "terms": [
@@ -35,10 +41,5 @@
         }
       }
     ]
-  },
-  "wants": {
-    "count": 16.0,
-    "id": "minecraft:brown_egg"
-  },
-  "xp": 2.0
+  }
 }
