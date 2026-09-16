@@ -2,6 +2,13 @@
   "gives": {
     "id": "minecraft:leather_helmet"
   },
+  "max_uses": 3.0,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 5,
+    "id": "minecraft:emerald"
+  },
+  "xp": 5.0,
   "given_item_modifiers": [
     {
       "function": "set_components",
@@ -15,12 +22,5 @@
         }
       }
     }
-  ],
-  "max_uses": 3.0,
-  "reputation_discount": 0.2,
-  "wants": {
-    "count": 5.0,
-    "id": "minecraft:emerald"
-  },
-  "xp": 5.0
+  ]
 }

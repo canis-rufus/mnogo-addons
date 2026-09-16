@@ -2,6 +2,13 @@
   "gives": {
     "id": "minecraft:iron_helmet"
   },
+  "max_uses": 3.0,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 3,
+    "id": "minecraft:emerald"
+  },
+  "xp": 15.0,
   "given_item_modifiers": [
     {
       "function": "set_attributes",
@@ -52,12 +59,5 @@
         "function": "minecraft:discard"
       }
     }
-  ],
-  "max_uses": 3.0,
-  "reputation_discount": 0.2,
-  "wants": {
-    "count": 3.0,
-    "id": "minecraft:emerald"
-  },
-  "xp": 15.0
+  ]
 }
