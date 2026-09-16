@@ -1,0 +1,12 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mnogo:copper_crown"
+      },
+      {
+        "texture": "mnogo:emerald_relic_overlay"
+      }
+    ]
+  }
+}

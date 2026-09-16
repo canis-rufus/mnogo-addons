@@ -1,0 +1,15 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mnogo:leather_crown",
+        "dyeable": {
+          "color_when_undyed": -6265536
+        }
+      },
+      {
+        "texture": "mnogo:leather_relic_crown_overlay"
+      }
+    ]
+  }
+}

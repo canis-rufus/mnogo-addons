@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "mnogo:item/amethyst_pickaxe"
+  },
+  "parent": "minecraft:item/handheld"
+}

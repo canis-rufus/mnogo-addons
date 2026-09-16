@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "mnogo:item/copper_crown"
+  },
+  "parent": "minecraft:item/generated"
+}
