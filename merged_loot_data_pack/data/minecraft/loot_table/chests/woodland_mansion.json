@@ -386,7 +386,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/potion_maker_book",
+          "value": "mnogo:chests/chanced/potion_handbook",
           "weight": 1
         }
       ],
