@@ -2,6 +2,13 @@
   "gives": {
     "id": "minecraft:written_book"
   },
+  "max_uses": 2.0,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 5,
+    "id": "minecraft:emerald"
+  },
+  "xp": 15.0,
   "given_item_modifiers": [
     {
       "function": "set_components",
@@ -1072,12 +1079,5 @@
         }
       }
     }
-  ],
-  "max_uses": 2,
-  "reputation_discount": 0.2,
-  "wants": {
-    "count": 5.0,
-    "id": "minecraft:emerald"
-  },
-  "xp": 15.0
+  ]
 }

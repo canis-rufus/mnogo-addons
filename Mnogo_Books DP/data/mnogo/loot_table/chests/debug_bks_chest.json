@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/single_item/potion_maker_book"
+          "value": "mnogo:chests/single_item/potion_handbook"
         }
       ],
       "rolls": 1.0

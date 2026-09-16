@@ -1080,8 +1080,12 @@
           "weight": 1
         }
       ],
-      "rolls": 1.0
+      "rolls": {
+        "type": "binomial",
+        "n": 1,
+        "p": 0.2
+      }
     }
   ],
-  "random_sequence": "mnogo:chests/single_item/potion_maker_book"
+  "random_sequence": "mnogo:chests/single_item/potion_handbook"
 }
