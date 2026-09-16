@@ -315,6 +315,11 @@
           "type": "minecraft:loot_table",
           "value": "mnogo:chests/chanced/golden_helmet_reinforced",
           "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/golden_chicken_shawarma",
+          "weight": 1
         }
       ],
       "rolls": 1.0
