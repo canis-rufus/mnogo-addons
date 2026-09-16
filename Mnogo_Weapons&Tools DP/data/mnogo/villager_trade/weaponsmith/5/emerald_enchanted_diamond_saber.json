@@ -2,6 +2,13 @@
   "gives": {
     "id": "minecraft:diamond_sword"
   },
+  "max_uses": 3.0,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 12,
+    "id": "minecraft:emerald"
+  },
+  "xp": 30.0,
   "given_item_modifiers": [
     {
       "function": "set_components",
@@ -67,12 +74,5 @@
         "function": "minecraft:discard"
       }
     }
-  ],
-  "max_uses": 3.0,
-  "reputation_discount": 0.2,
-  "wants": {
-    "count": 12.0,
-    "id": "minecraft:emerald"
-  },
-  "xp": 30.0
+  ]
 }
