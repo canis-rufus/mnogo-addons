@@ -2,16 +2,16 @@
   "gives": {
     "id": "minecraft:diamond_shovel"
   },
-  "max_uses": 3.0,
+  "max_uses": 3,
   "reputation_discount": 0.2,
   "wants": {
     "count": 10,
     "id": "minecraft:emerald"
   },
-  "xp": 15.0,
-  "given_item_modifiers": [
+  "xp": 15,
+  "given_item_modifier": [
     {
-      "function": "set_components",
+      "type": "set_components",
       "components": {
         "minecraft:rarity": "uncommon",
         "minecraft:item_model": "mnogo:emerald_shovel",
@@ -20,17 +20,17 @@
       }
     },
     {
-      "function": "minecraft:enchant_with_levels",
+      "type": "minecraft:enchant_with_levels",
       "include_additional_cost_component": true,
       "levels": {
         "type": "minecraft:uniform",
-        "max": 19.0,
-        "min": 5.0
+        "max": 19,
+        "min": 5
       },
       "options": "#minecraft:on_traded_equipment"
     },
     {
-      "function": "minecraft:filtered",
+      "type": "minecraft:filtered",
       "item_filter": {
         "items": "minecraft:diamond_shovel",
         "predicates": {
@@ -40,7 +40,7 @@
         }
       },
       "on_fail": {
-        "function": "minecraft:discard"
+        "type": "minecraft:discard"
       }
     }
   ]

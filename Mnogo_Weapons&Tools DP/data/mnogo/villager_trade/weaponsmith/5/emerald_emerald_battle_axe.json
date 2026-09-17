@@ -2,16 +2,16 @@
   "gives": {
     "id": "minecraft:diamond_axe"
   },
-  "max_uses": 3.0,
+  "max_uses": 3,
   "reputation_discount": 0.2,
   "wants": {
     "count": 12,
     "id": "minecraft:emerald"
   },
-  "xp": 20.0,
-  "given_item_modifiers": [
+  "xp": 20,
+  "given_item_modifier": [
     {
-      "function": "set_attributes",
+      "type": "set_attributes",
       "modifiers": [
         {
           "id": "mnogo:emerald_battle_axe_efficiency",
@@ -24,7 +24,7 @@
       "replace": true
     },
     {
-      "function": "set_components",
+      "type": "set_components",
       "components": {
         "minecraft:rarity": "uncommon",
         "minecraft:item_model": "mnogo:emerald_battle_axe",

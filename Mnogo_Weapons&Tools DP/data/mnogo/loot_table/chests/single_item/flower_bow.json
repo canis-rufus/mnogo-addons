@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bow",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:rarity": "rare",
                 "minecraft:item_model": "mnogo:flower_bow",
