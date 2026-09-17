@@ -1,7 +1,7 @@
 {
   "pack": {
-    "description": "Mnogo. Additional armor variants. Version 1.2.4",
+    "description": "Mnogo. Additional armor variants. Version 1.3.0",
     "min_format": 88,
-    "max_format": 88
+    "max_format": 97
   }
 }

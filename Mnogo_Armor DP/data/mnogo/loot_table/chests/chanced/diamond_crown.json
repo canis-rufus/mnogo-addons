@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_helmet",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_attributes",
+              "type": "set_attributes",
               "modifiers": [
                 {
                   "id": "mnogo:diamond_crown_armor",
@@ -21,7 +21,7 @@
               "replace": true
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:rarity": "uncommon",
                 "minecraft:item_model": "mnogo:diamond_crown",

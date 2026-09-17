@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_helmet",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_attributes",
+              "type": "set_attributes",
               "modifiers": [
                 {
                   "id": "mnogo:leather_crown_relic_armor",
@@ -28,7 +28,7 @@
               "replace": true
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:rarity": "rare",
                 "minecraft:item_model": "mnogo:leather_crown_relic",
