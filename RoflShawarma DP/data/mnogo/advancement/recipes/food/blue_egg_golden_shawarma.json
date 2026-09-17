@@ -6,7 +6,7 @@
     ]
   },
   "criteria": {
-    "has_{'item': 'cooked_chicken', 'model': 'chicken_shawarma'}": {
+    "has_chicken_shawarma": {
       "conditions": {
         "items": [
           {
@@ -19,7 +19,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_{'item': 'cooked_chicken', 'model': 'golden_chicken_shawarma'}": {
+    "has_golden_chicken_shawarma": {
       "conditions": {
         "items": [
           {
@@ -35,8 +35,8 @@
   },
   "requirements": [
     [
-      "has_{'item': 'cooked_chicken', 'model': 'chicken_shawarma'}",
-      "has_{'item': 'cooked_chicken', 'model': 'golden_chicken_shawarma'}"
+      "has_chicken_shawarma",
+      "has_golden_chicken_shawarma"
     ]
   ]
 }

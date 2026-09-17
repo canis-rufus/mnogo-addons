@@ -4,7 +4,6 @@
   "show_notification": true,
   "result": {
     "id": "minecraft:cooked_chicken",
-    "count": 1,
     "components": {
       "minecraft:item_model": "mnogo:chicken_shawarma",
       "minecraft:item_name": "Куриная шаурма",

@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cooked_chicken",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:rarity": "uncommon",
                 "minecraft:item_model": "mnogo:golden_chicken_shawarma",
