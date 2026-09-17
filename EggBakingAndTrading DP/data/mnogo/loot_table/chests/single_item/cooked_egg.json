@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cooked_chicken",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:item_model": "mnogo:cooked_egg",
                 "minecraft:item_name": "Жареное яйцо",

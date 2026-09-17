@@ -4,7 +4,6 @@
   "show_notification": true,
   "result": {
     "id": "minecraft:cooked_chicken",
-    "count": 1,
     "components": {
       "minecraft:item_model": "mnogo:cooked_egg",
       "minecraft:item_name": "Жареное яйцо",
@@ -16,5 +15,6 @@
   },
   "category": "food",
   "experience": 0.35,
+  "cookingtime": 200,
   "ingredient": "minecraft:egg"
 }
