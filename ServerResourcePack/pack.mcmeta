@@ -2,6 +2,6 @@
   "pack": {
     "description": "Ресурсы для сервера. Version 1.0",
     "min_format": 88,
-    "max_format": 88
+    "max_format": 97
   }
 }
