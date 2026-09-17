@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:rarity": "common",
                 "minecraft:item_model": "mnogo:potion_book"
