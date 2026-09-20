@@ -117,6 +117,11 @@
           "type": "minecraft:loot_table",
           "value": "mnogo:chests/chanced/diamond_crown",
           "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/echo_torch",
+          "weight": 1
         }
       ],
       "rolls": 1.0
