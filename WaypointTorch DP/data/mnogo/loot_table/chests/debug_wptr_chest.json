@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/echo_torch"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn",
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "minecraft:rarity": "rare",
+                "minecraft:item_model": "mnogo:echo_torch",
+                "minecraft:item_name": "Эхо факел",
+                "!minecraft:instrument": {},
+                "minecraft:max_stack_size": 64,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "mnogo:echo_torch_waypoint_transmit_range",
+                    "type": "minecraft:waypoint_transmit_range",
+                    "slot": "hand",
+                    "operation": "add_value",
+                    "amount": 5000.0
+                  }
+                ]
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": {
+        "type": "binomial",
+        "n": 1,
+        "p": 0.2
+      }
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/echo_torch"
+}

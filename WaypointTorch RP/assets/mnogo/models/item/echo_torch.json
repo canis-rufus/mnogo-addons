@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "mnogo:item/echo_torch"
+  },
+  "parent": "minecraft:item/handheld"
+}
