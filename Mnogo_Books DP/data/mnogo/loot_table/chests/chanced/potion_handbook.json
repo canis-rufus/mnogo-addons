@@ -1087,5 +1087,5 @@
       }
     }
   ],
-  "random_sequence": "mnogo:chests/single_item/potion_handbook"
+  "random_sequence": "mnogo:chests/chanced/potion_handbook"
 }

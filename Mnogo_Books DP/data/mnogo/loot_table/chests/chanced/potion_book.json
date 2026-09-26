@@ -25,5 +25,5 @@
       }
     }
   ],
-  "random_sequence": "mnogo:chests/single_item/potion_book"
+  "random_sequence": "mnogo:chests/chanced/potion_book"
 }

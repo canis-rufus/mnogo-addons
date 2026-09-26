@@ -1,6 +1,0 @@
-{
-  "textures": {
-    "layer0": "mnogo:item/egg"
-  },
-  "parent": "minecraft:item/generated"
-}

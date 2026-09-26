@@ -1,7 +1,7 @@
 {
+  "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "mnogo:item/diamond_crown",
     "layer1": "mnogo:item/helmet_amethyst_relic_overlay"
-  },
-  "parent": "minecraft:item/generated"
+  }
 }
