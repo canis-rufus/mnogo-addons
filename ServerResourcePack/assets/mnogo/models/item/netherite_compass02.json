@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/compass_02",
+  "textures": {
+    "layer1": "mnogo:item/compass_netherite_overlay"
+  }
+}

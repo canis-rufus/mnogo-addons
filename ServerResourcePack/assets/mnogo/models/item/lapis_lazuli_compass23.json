@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/compass_23",
+  "textures": {
+    "layer1": "mnogo:item/compass_lapis_lazuli_overlay"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/compass_24",
+  "textures": {
+    "layer1": "mnogo:item/compass_prismarine_overlay"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/compass_19",
+  "textures": {
+    "layer1": "mnogo:item/compass_pink_gold_overlay"
+  }
+}
