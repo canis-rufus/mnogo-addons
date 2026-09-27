@@ -162,6 +162,16 @@
           "type": "minecraft:loot_table",
           "value": "mnogo:chests/chanced/leather_helmet_reinforced",
           "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/copper_compass",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/copper_oxidized_compass",
+          "weight": 1
         }
       ],
       "rolls": 1.0

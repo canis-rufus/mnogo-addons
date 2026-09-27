@@ -56,6 +56,11 @@
           "type": "minecraft:loot_table",
           "value": "mnogo:chests/chanced/leather_crown_relic",
           "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/trial_compass",
+          "weight": 1
         }
       ],
       "rolls": 1.0

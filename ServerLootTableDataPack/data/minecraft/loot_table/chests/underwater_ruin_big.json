@@ -199,6 +199,21 @@
           "type": "minecraft:loot_table",
           "value": "mnogo:chests/chanced/iron_helmet_reinforced",
           "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/drowned_compass",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/prismarine_compass",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/sea_lantern_compass",
+          "weight": 1
         }
       ],
       "rolls": 1.0

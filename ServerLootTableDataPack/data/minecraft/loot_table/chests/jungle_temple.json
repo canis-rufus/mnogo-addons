@@ -9,24 +9,24 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
+              "max": 3,
+              "min": 1
+            }
+          },
+          "name": "minecraft:diamond",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
               "max": 5,
               "min": 1
             }
           },
           "name": "minecraft:iron_ingot",
-          "weight": 90
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 5,
-              "min": 1
-            }
-          },
-          "name": "minecraft:gold_ingot",
           "weight": 10
         },
         {
@@ -35,75 +35,107 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "max": 5,
+              "max": 7,
+              "min": 2
+            }
+          },
+          "name": "minecraft:gold_ingot",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 3,
+              "min": 1
+            }
+          },
+          "name": "minecraft:bamboo",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 3,
               "min": 1
             }
           },
           "name": "minecraft:emerald",
-          "weight": 40
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond",
-          "weight": 5
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 6,
+              "min": 4
+            }
+          },
+          "name": "minecraft:bone",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:experience_bottle",
-          "weight": 5
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 7,
+              "min": 3
+            }
+          },
+          "name": "minecraft:rotten_flesh",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 5,
+              "min": 1
+            }
+          },
+          "name": "minecraft:leather",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:enchant_with_levels",
+            "levels": 30,
+            "options": "#minecraft:on_random_loot"
+          },
+          "name": "minecraft:book"
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
         "max": 6,
-        "min": 3
-      }
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 10,
-              "min": 1
-            }
-          },
-          "name": "minecraft:iron_nugget",
-          "weight": 50
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 10,
-              "min": 1
-            }
-          },
-          "name": "minecraft:gold_nugget",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 10,
-              "min": 1
-            }
-          },
-          "name": "minecraft:lapis_lazuli",
-          "weight": 20
-        }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 5,
         "min": 2
       }
     },
@@ -111,7 +143,7 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 5
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -119,52 +151,7 @@
             "type": "minecraft:set_count",
             "count": 2
           },
-          "name": "minecraft:coast_armor_trim_smithing_template"
-        }
-      ],
-      "rolls": 1
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 148
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": 1
-          },
-          "name": "minecraft:copper_nautilus_armor",
-          "weight": 20
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": 1
-          },
-          "name": "minecraft:iron_nautilus_armor",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": 1
-          },
-          "name": "minecraft:golden_nautilus_armor",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": 1
-          },
-          "name": "minecraft:diamond_nautilus_armor",
-          "weight": 2
+          "name": "minecraft:wild_armor_trim_smithing_template"
         }
       ],
       "rolls": 1
@@ -173,42 +160,62 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/amethyst_saber",
+          "value": "mnogo:chests/chanced/amethyst_battle_axe",
           "weight": 1
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/diamond_saber",
+          "value": "mnogo:chests/chanced/amethyst_sekira",
           "weight": 1
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/emerald_saber",
+          "value": "mnogo:chests/chanced/diamond_battle_axe",
           "weight": 1
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/iron_saber",
+          "value": "mnogo:chests/chanced/diamond_sekira",
           "weight": 1
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/ruby_saber",
+          "value": "mnogo:chests/chanced/emerald_battle_axe",
           "weight": 1
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/extra_long_regeneration_potion",
+          "value": "mnogo:chests/chanced/emerald_sekira",
           "weight": 1
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/extra_long_water_breathing_potion",
+          "value": "mnogo:chests/chanced/flower_bow",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/ruby_battle_axe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/ruby_sekira",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/copper_crown",
           "weight": 1
         },
         {
           "type": "minecraft:loot_table",
           "value": "mnogo:chests/chanced/copper_crown_relic",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/copper_helmet_reinforced",
           "weight": 1
         },
         {
@@ -228,11 +235,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/golden_crown",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "mnogo:chests/chanced/golden_crown_relic",
           "weight": 1
         },
@@ -245,10 +247,15 @@
           "type": "minecraft:loot_table",
           "value": "mnogo:chests/chanced/leather_crown_relic",
           "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/flowered_compass",
+          "weight": 1
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:chests/shipwreck_treasure"
+  "random_sequence": "minecraft:chests/jungle_temple"
 }

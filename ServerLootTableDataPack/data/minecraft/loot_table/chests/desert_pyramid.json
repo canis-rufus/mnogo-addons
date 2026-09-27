@@ -280,6 +280,26 @@
           "type": "minecraft:loot_table",
           "value": "mnogo:chests/chanced/iron_helmet_reinforced",
           "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/copper_compass",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/golden_compass",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/lapis_lazuli_compass",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/ruby_compass",
+          "weight": 1
         }
       ],
       "rolls": 1.0
