@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "mnogo:netherite_compass",
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Вариант: Незеритовый",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/netherite_compass"
+}

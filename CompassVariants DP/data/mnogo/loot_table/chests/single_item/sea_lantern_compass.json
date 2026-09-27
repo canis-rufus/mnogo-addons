@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:item_model": "mnogo:sea_lantern_compass",
+                "minecraft:lore": [
+                  {
+                    "text": "Вариант: Морской фонарь",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/sea_lantern_compass"
+}

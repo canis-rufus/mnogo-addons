@@ -1,0 +1,149 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/amethyst_compass"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/copper_compass"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/copper_oxidized_compass"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/diamond_compass"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/drowned_compass"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/emerald_compass"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/flowered_compass"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/golden_compass"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/lapis_lazuli_compass"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/netherite_compass"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/pink_gold_compass"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/prismarine_compass"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/ruby_compass"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/sculk_compass"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/sea_lantern_compass"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/trial_compass"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

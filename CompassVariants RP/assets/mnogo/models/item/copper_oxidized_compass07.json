@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/compass_07",
+  "textures": {
+    "layer1": "mnogo:item/compass_copper_oxidized_overlay"
+  }
+}

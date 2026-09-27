@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "minecraft:item_model": "mnogo:emerald_compass",
+                "minecraft:lore": [
+                  {
+                    "text": "Вариант: Изумрудный",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/emerald_compass"
+}

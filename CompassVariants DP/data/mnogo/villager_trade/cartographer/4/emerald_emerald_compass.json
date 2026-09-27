@@ -1,0 +1,27 @@
+{
+  "gives": {
+    "id": "minecraft:compass"
+  },
+  "max_uses": 3,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 12,
+    "id": "minecraft:emerald"
+  },
+  "xp": 20,
+  "given_item_modifier": [
+    {
+      "type": "set_components",
+      "components": {
+        "minecraft:item_model": "mnogo:emerald_compass",
+        "minecraft:lore": [
+          {
+            "text": "Вариант: Изумрудный",
+            "color": "gray",
+            "italic": false
+          }
+        ]
+      }
+    }
+  ]
+}

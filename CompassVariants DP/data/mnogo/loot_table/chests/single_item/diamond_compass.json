@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "minecraft:item_model": "mnogo:diamond_compass",
+                "minecraft:lore": [
+                  {
+                    "text": "Вариант: Алмазный",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/diamond_compass"
+}

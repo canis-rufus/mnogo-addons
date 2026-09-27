@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/compass_28",
+  "textures": {
+    "layer1": "mnogo:item/compass_drowned_overlay"
+  }
+}
