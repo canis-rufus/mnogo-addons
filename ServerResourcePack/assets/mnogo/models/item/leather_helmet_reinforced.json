@@ -1,7 +1,7 @@
 {
+  "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "mnogo:item/leather_helmet_reinforced",
     "layer1": "mnogo:item/leather_helmet_reinforced_overlay"
-  },
-  "parent": "minecraft:item/generated"
+  }
 }
