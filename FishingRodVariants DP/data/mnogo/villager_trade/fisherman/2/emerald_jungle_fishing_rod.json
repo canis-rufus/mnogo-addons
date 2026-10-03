@@ -1,0 +1,40 @@
+{
+  "gives": {
+    "id": "minecraft:fishing_rod"
+  },
+  "max_uses": 16,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 2,
+    "id": "minecraft:emerald"
+  },
+  "xp": 5,
+  "given_item_modifier": [
+    {
+      "type": "set_components",
+      "components": {
+        "minecraft:item_model": "mnogo:jungle_fishing_rod",
+        "minecraft:lore": [
+          {
+            "text": "Вариант: Джунглевый",
+            "color": "gray",
+            "italic": false
+          }
+        ]
+      }
+    }
+  ],
+  "merchant_predicate": {
+    "type": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "minecraft:location": {
+        "biomes": [
+          "jungle",
+          "sparse_jungle",
+          "bamboo_jungle"
+        ]
+      }
+    }
+  }
+}

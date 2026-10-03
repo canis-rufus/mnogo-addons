@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "minecraft:item_model": "mnogo:bamboo_fishing_rod",
+                "minecraft:lore": [
+                  {
+                    "text": "Вариант: Бамбуковый",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": {
+        "type": "binomial",
+        "n": 1,
+        "p": 0.2
+      }
+    }
+  ],
+  "random_sequence": "mnogo:chests/chanced/bamboo_fishing_rod"
+}
