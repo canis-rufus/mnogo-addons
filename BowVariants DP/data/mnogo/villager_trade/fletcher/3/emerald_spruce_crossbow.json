@@ -1,0 +1,45 @@
+{
+  "gives": {
+    "id": "minecraft:crossbow"
+  },
+  "max_uses": 12,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 3,
+    "id": "minecraft:emerald"
+  },
+  "xp": 10,
+  "given_item_modifier": [
+    {
+      "type": "set_components",
+      "components": {
+        "minecraft:item_model": "mnogo:spruce_crossbow",
+        "minecraft:lore": [
+          {
+            "text": "Вариант: Еловый",
+            "color": "gray",
+            "italic": false
+          }
+        ]
+      }
+    }
+  ],
+  "merchant_predicate": {
+    "type": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "minecraft:location": {
+        "biomes": [
+          "snowy_plains",
+          "old_growth_pine_taiga",
+          "taiga",
+          "snowy_taiga",
+          "windswept_hills",
+          "windswept_gravelly_hills",
+          "windswept_forest",
+          "grove"
+        ]
+      }
+    }
+  }
+}

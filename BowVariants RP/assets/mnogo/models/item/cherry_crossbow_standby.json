@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/crossbow",
+  "textures": {
+    "layer0": "mnogo:item/cherry_crossbow_standby"
+  }
+}
