@@ -23,7 +23,7 @@
             {
               "type": "set_components",
               "components": {
-                "minecraft:rarity": "rare",
+                "minecraft:rarity": "uncommon",
                 "minecraft:item_model": "mnogo:emerald_sekira",
                 "minecraft:item_name": "Изумрудная секира",
                 "minecraft:max_damage": 781,

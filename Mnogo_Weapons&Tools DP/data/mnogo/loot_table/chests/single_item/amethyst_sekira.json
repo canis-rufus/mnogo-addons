@@ -23,7 +23,7 @@
             {
               "type": "set_components",
               "components": {
-                "minecraft:rarity": "rare",
+                "minecraft:rarity": "uncommon",
                 "minecraft:item_model": "mnogo:amethyst_sekira",
                 "minecraft:item_name": "Аметистовая секира",
                 "minecraft:max_damage": 781,
