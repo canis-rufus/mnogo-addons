@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/crossbow",
+  "textures": {
+    "layer0": "mnogo:item/bamboo_crossbow_pulling_1"
+  }
+}

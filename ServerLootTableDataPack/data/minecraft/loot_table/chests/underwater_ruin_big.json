@@ -214,6 +214,167 @@
           "type": "minecraft:loot_table",
           "value": "mnogo:chests/chanced/sea_lantern_compass",
           "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/acacia_fishing_rod",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": [
+                "savanna",
+                "savanna_plateau",
+                "windswept_savanna"
+              ]
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/bamboo_fishing_rod",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": [
+                "bamboo_jungle"
+              ]
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/birch_fishing_rod",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": [
+                "birch_forest",
+                "old_growth_birch_forest"
+              ]
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/cherry_fishing_rod",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": [
+                "cherry_grove"
+              ]
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/dark_oak_fishing_rod",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": [
+                "dark_forest"
+              ]
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/jungle_fishing_rod",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": [
+                "jungle",
+                "sparse_jungle",
+                "bamboo_jungle"
+              ]
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/mangrove_fishing_rod",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": [
+                "mangrove_swamp"
+              ]
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/oak_fishing_rod",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": [
+                "plains",
+                "sunflower_plains",
+                "swamp",
+                "forest",
+                "flower_forest",
+                "wooded_badlands",
+                "meadow"
+              ]
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/pale_oak_fishing_rod",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": [
+                "pale_garden"
+              ]
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/poplar_fishing_rod",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": [
+                "dappled_forest"
+              ]
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/spruce_fishing_rod",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": [
+                "snowy_plains",
+                "old_growth_pine_taiga",
+                "taiga",
+                "snowy_taiga",
+                "windswept_hills",
+                "windswept_gravelly_hills",
+                "windswept_forest",
+                "grove"
+              ]
+            }
+          }
         }
       ],
       "rolls": 1.0

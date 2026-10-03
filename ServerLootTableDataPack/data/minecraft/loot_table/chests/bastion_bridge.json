@@ -313,6 +313,45 @@
           "type": "minecraft:loot_table",
           "value": "mnogo:chests/chanced/golden_helmet_reinforced",
           "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/crimson_crossbow",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": [
+                "crimson_forest"
+              ]
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/dark_oak_crossbow",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": [
+                "dark_forest"
+              ]
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/chanced/warped_crossbow",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": [
+                "warped_forest"
+              ]
+            }
+          }
         }
       ],
       "rolls": 1.0

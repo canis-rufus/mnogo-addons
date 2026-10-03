@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "mnogo:item/pale_oak_bow_pulling_2"
+  }
+}

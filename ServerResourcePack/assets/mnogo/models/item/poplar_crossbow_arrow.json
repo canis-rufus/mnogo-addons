@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/crossbow",
+  "textures": {
+    "layer0": "mnogo:item/poplar_crossbow_arrow"
+  }
+}
