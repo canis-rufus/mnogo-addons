@@ -351,23 +351,39 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/extra_long_regeneration_potion",
-          "weight": 1
+          "value": "mnogo:chests/single_item/extra_long_regeneration_potion",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/golden_crown_relic",
-          "weight": 1
+          "value": "mnogo:chests/single_item/golden_crown_relic",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/golden_chicken_shawarma",
-          "weight": 1
+          "value": "mnogo:chests/single_item/golden_chicken_shawarma",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/netherite_compass",
-          "weight": 1
+          "value": "mnogo:chests/single_item/netherite_compass",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         }
       ],
       "rolls": 1.0

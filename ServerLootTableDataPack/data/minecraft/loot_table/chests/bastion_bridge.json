@@ -286,71 +286,122 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/gold_battle_axe",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/gold_saber",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/gold_sekira",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/extra_long_strength_potion",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/golden_crown",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/golden_helmet_reinforced",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/crimson_crossbow",
+          "value": "mnogo:chests/single_item/gold_battle_axe",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "crimson_forest"
-              ]
-            }
+            "type": "minecraft:random_chance",
+            "chance": 0.2
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/dark_oak_crossbow",
+          "value": "mnogo:chests/single_item/gold_saber",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "dark_forest"
-              ]
-            }
+            "type": "minecraft:random_chance",
+            "chance": 0.2
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/warped_crossbow",
+          "value": "mnogo:chests/single_item/gold_sekira",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "warped_forest"
-              ]
-            }
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/extra_long_strength_potion",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/golden_crown",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/golden_helmet_reinforced",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/crimson_crossbow",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "crimson_forest"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/dark_oak_crossbow",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "dark_forest"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/warped_crossbow",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "warped_forest"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         }
       ],

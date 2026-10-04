@@ -107,8 +107,12 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/ancient_iron_sword",
-          "weight": 1
+          "value": "mnogo:chests/single_item/ancient_iron_sword",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         }
       ],
       "rolls": 1.0

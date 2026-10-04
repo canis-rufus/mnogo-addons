@@ -173,108 +173,192 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/amethyst_saber",
-          "weight": 1
+          "value": "mnogo:chests/single_item/amethyst_saber",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/diamond_saber",
-          "weight": 1
+          "value": "mnogo:chests/single_item/diamond_saber",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/emerald_saber",
-          "weight": 1
+          "value": "mnogo:chests/single_item/emerald_saber",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/iron_saber",
-          "weight": 1
+          "value": "mnogo:chests/single_item/iron_saber",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/ruby_saber",
-          "weight": 1
+          "value": "mnogo:chests/single_item/ruby_saber",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/extra_long_regeneration_potion",
-          "weight": 1
+          "value": "mnogo:chests/single_item/extra_long_regeneration_potion",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/extra_long_water_breathing_potion",
-          "weight": 1
+          "value": "mnogo:chests/single_item/extra_long_water_breathing_potion",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/copper_crown_relic",
-          "weight": 1
+          "value": "mnogo:chests/single_item/copper_crown_relic",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/diamond_crown",
-          "weight": 1
+          "value": "mnogo:chests/single_item/diamond_crown",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/diamond_crown_relic",
-          "weight": 1
+          "value": "mnogo:chests/single_item/diamond_crown_relic",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/diamond_helmet_reinforced",
-          "weight": 1
+          "value": "mnogo:chests/single_item/diamond_helmet_reinforced",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/golden_crown",
-          "weight": 1
+          "value": "mnogo:chests/single_item/golden_crown",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/golden_crown_relic",
-          "weight": 1
+          "value": "mnogo:chests/single_item/golden_crown_relic",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/iron_crown_relic",
-          "weight": 1
+          "value": "mnogo:chests/single_item/iron_crown_relic",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/leather_crown_relic",
-          "weight": 1
+          "value": "mnogo:chests/single_item/leather_crown_relic",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/amethyst_compass",
-          "weight": 1
+          "value": "mnogo:chests/single_item/amethyst_compass",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/diamond_compass",
-          "weight": 1
+          "value": "mnogo:chests/single_item/diamond_compass",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/emerald_compass",
-          "weight": 1
+          "value": "mnogo:chests/single_item/emerald_compass",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/lapis_lazuli_compass",
-          "weight": 1
+          "value": "mnogo:chests/single_item/lapis_lazuli_compass",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/pink_gold_compass",
-          "weight": 1
+          "value": "mnogo:chests/single_item/pink_gold_compass",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/ruby_compass",
-          "weight": 1
+          "value": "mnogo:chests/single_item/ruby_compass",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         }
       ],
       "rolls": 1.0

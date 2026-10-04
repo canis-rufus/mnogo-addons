@@ -86,38 +86,66 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/copper_battle_axe",
-          "weight": 1
+          "value": "mnogo:chests/single_item/copper_battle_axe",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/copper_sekira",
-          "weight": 1
+          "value": "mnogo:chests/single_item/copper_sekira",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/extra_long_strength_potion",
-          "weight": 1
+          "value": "mnogo:chests/single_item/extra_long_strength_potion",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/copper_crown",
-          "weight": 1
+          "value": "mnogo:chests/single_item/copper_crown",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/copper_helmet_reinforced",
-          "weight": 1
+          "value": "mnogo:chests/single_item/copper_helmet_reinforced",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/copper_compass",
-          "weight": 1
+          "value": "mnogo:chests/single_item/copper_compass",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/copper_oxidized_compass",
-          "weight": 1
+          "value": "mnogo:chests/single_item/copper_oxidized_compass",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         }
       ],
       "rolls": 1.0

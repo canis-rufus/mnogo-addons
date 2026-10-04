@@ -132,53 +132,93 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/gold_battle_axe",
-          "weight": 1
+          "value": "mnogo:chests/single_item/gold_battle_axe",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/gold_saber",
-          "weight": 1
+          "value": "mnogo:chests/single_item/gold_saber",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/gold_sekira",
-          "weight": 1
+          "value": "mnogo:chests/single_item/gold_sekira",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/nether_bow",
-          "weight": 1
+          "value": "mnogo:chests/single_item/nether_bow",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/extra_long_strength_potion",
-          "weight": 1
+          "value": "mnogo:chests/single_item/extra_long_strength_potion",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/golden_crown",
-          "weight": 1
+          "value": "mnogo:chests/single_item/golden_crown",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/golden_crown_relic",
-          "weight": 1
+          "value": "mnogo:chests/single_item/golden_crown_relic",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/golden_helmet_reinforced",
-          "weight": 1
+          "value": "mnogo:chests/single_item/golden_helmet_reinforced",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/golden_chicken_shawarma",
-          "weight": 1
+          "value": "mnogo:chests/single_item/golden_chicken_shawarma",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/golden_compass",
-          "weight": 1
+          "value": "mnogo:chests/single_item/golden_compass",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         }
       ],
       "rolls": 1.0

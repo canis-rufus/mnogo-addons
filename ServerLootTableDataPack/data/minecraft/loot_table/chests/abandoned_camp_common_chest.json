@@ -568,363 +568,588 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/acacia_bow",
+          "value": "mnogo:chests/single_item/acacia_bow",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "savanna",
-                "savanna_plateau",
-                "windswept_savanna"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "savanna",
+                    "savanna_plateau",
+                    "windswept_savanna"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/bamboo_bow",
+          "value": "mnogo:chests/single_item/bamboo_bow",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "bamboo_jungle"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "bamboo_jungle"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/birch_bow",
+          "value": "mnogo:chests/single_item/birch_bow",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "birch_forest",
-                "old_growth_birch_forest"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "birch_forest",
+                    "old_growth_birch_forest"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/cherry_bow",
+          "value": "mnogo:chests/single_item/cherry_bow",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "cherry_grove"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "cherry_grove"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/dark_oak_bow",
+          "value": "mnogo:chests/single_item/dark_oak_bow",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "dark_forest"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "dark_forest"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/jungle_bow",
+          "value": "mnogo:chests/single_item/jungle_bow",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "jungle",
-                "sparse_jungle",
-                "bamboo_jungle"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "jungle",
+                    "sparse_jungle",
+                    "bamboo_jungle"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/mangrove_bow",
+          "value": "mnogo:chests/single_item/mangrove_bow",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "mangrove_swamp"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "mangrove_swamp"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/oak_bow",
+          "value": "mnogo:chests/single_item/oak_bow",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "plains",
-                "sunflower_plains",
-                "swamp",
-                "forest",
-                "flower_forest",
-                "wooded_badlands",
-                "meadow"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "plains",
+                    "sunflower_plains",
+                    "swamp",
+                    "forest",
+                    "flower_forest",
+                    "wooded_badlands",
+                    "meadow"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/pale_oak_bow",
+          "value": "mnogo:chests/single_item/pale_oak_bow",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "pale_garden"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "pale_garden"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/poplar_bow",
+          "value": "mnogo:chests/single_item/poplar_bow",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "dappled_forest"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "dappled_forest"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/spruce_bow",
+          "value": "mnogo:chests/single_item/spruce_bow",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "snowy_plains",
-                "old_growth_pine_taiga",
-                "taiga",
-                "snowy_taiga",
-                "windswept_hills",
-                "windswept_gravelly_hills",
-                "windswept_forest",
-                "grove"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "snowy_plains",
+                    "old_growth_pine_taiga",
+                    "taiga",
+                    "snowy_taiga",
+                    "windswept_hills",
+                    "windswept_gravelly_hills",
+                    "windswept_forest",
+                    "grove"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/warped_bow",
+          "value": "mnogo:chests/single_item/warped_bow",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "warped_forest"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "warped_forest"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/acacia_fishing_rod",
+          "value": "mnogo:chests/single_item/acacia_fishing_rod",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "savanna",
-                "savanna_plateau",
-                "windswept_savanna"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "savanna",
+                    "savanna_plateau",
+                    "windswept_savanna"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/bamboo_fishing_rod",
+          "value": "mnogo:chests/single_item/bamboo_fishing_rod",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "bamboo_jungle"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "bamboo_jungle"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/birch_fishing_rod",
+          "value": "mnogo:chests/single_item/birch_fishing_rod",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "birch_forest",
-                "old_growth_birch_forest"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "birch_forest",
+                    "old_growth_birch_forest"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/cherry_fishing_rod",
+          "value": "mnogo:chests/single_item/cherry_fishing_rod",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "cherry_grove"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "cherry_grove"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/crimson_fishing_rod",
+          "value": "mnogo:chests/single_item/crimson_fishing_rod",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "crimson_forest"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "crimson_forest"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/dark_oak_fishing_rod",
+          "value": "mnogo:chests/single_item/dark_oak_fishing_rod",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "dark_forest"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "dark_forest"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/jungle_fishing_rod",
+          "value": "mnogo:chests/single_item/jungle_fishing_rod",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "jungle",
-                "sparse_jungle",
-                "bamboo_jungle"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "jungle",
+                    "sparse_jungle",
+                    "bamboo_jungle"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/mangrove_fishing_rod",
+          "value": "mnogo:chests/single_item/mangrove_fishing_rod",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "mangrove_swamp"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "mangrove_swamp"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/oak_fishing_rod",
+          "value": "mnogo:chests/single_item/oak_fishing_rod",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "plains",
-                "sunflower_plains",
-                "swamp",
-                "forest",
-                "flower_forest",
-                "wooded_badlands",
-                "meadow"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "plains",
+                    "sunflower_plains",
+                    "swamp",
+                    "forest",
+                    "flower_forest",
+                    "wooded_badlands",
+                    "meadow"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/pale_oak_fishing_rod",
+          "value": "mnogo:chests/single_item/pale_oak_fishing_rod",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "pale_garden"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "pale_garden"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/poplar_fishing_rod",
+          "value": "mnogo:chests/single_item/poplar_fishing_rod",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "dappled_forest"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "dappled_forest"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/spruce_fishing_rod",
+          "value": "mnogo:chests/single_item/spruce_fishing_rod",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "snowy_plains",
-                "old_growth_pine_taiga",
-                "taiga",
-                "snowy_taiga",
-                "windswept_hills",
-                "windswept_gravelly_hills",
-                "windswept_forest",
-                "grove"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "snowy_plains",
+                    "old_growth_pine_taiga",
+                    "taiga",
+                    "snowy_taiga",
+                    "windswept_hills",
+                    "windswept_gravelly_hills",
+                    "windswept_forest",
+                    "grove"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/warped_fishing_rod",
+          "value": "mnogo:chests/single_item/warped_fishing_rod",
           "weight": 1,
           "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": [
-                "warped_forest"
-              ]
-            }
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "biomes": [
+                    "warped_forest"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
           }
         }
       ],

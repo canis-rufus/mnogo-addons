@@ -152,13 +152,21 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/iron_battle_axe",
-          "weight": 1
+          "value": "mnogo:chests/single_item/iron_battle_axe",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/iron_sekira",
-          "weight": 1
+          "value": "mnogo:chests/single_item/iron_sekira",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         }
       ],
       "rolls": 1.0

@@ -67,18 +67,30 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/copper_crown",
-          "weight": 1
+          "value": "mnogo:chests/single_item/copper_crown",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/iron_crown",
-          "weight": 1
+          "value": "mnogo:chests/single_item/iron_crown",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/potion_handbook",
-          "weight": 1
+          "value": "mnogo:chests/single_item/potion_handbook",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         }
       ],
       "rolls": 1.0

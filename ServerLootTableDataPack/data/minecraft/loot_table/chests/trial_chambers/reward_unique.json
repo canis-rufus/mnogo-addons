@@ -34,33 +34,57 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/copper_crown_relic",
-          "weight": 1
+          "value": "mnogo:chests/single_item/copper_crown_relic",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/diamond_crown_relic",
-          "weight": 1
+          "value": "mnogo:chests/single_item/diamond_crown_relic",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/golden_crown_relic",
-          "weight": 1
+          "value": "mnogo:chests/single_item/golden_crown_relic",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/iron_crown_relic",
-          "weight": 1
+          "value": "mnogo:chests/single_item/iron_crown_relic",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/leather_crown_relic",
-          "weight": 1
+          "value": "mnogo:chests/single_item/leather_crown_relic",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/trial_compass",
-          "weight": 1
+          "value": "mnogo:chests/single_item/trial_compass",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         }
       ],
       "rolls": 1.0

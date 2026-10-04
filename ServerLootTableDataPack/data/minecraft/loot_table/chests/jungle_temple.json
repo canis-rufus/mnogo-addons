@@ -160,98 +160,174 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/amethyst_battle_axe",
-          "weight": 1
+          "value": "mnogo:chests/single_item/amethyst_battle_axe",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/amethyst_sekira",
-          "weight": 1
+          "value": "mnogo:chests/single_item/amethyst_sekira",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/diamond_battle_axe",
-          "weight": 1
+          "value": "mnogo:chests/single_item/diamond_battle_axe",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/diamond_sekira",
-          "weight": 1
+          "value": "mnogo:chests/single_item/diamond_sekira",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/emerald_battle_axe",
-          "weight": 1
+          "value": "mnogo:chests/single_item/emerald_battle_axe",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/emerald_sekira",
-          "weight": 1
+          "value": "mnogo:chests/single_item/emerald_sekira",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/flower_bow",
-          "weight": 1
+          "value": "mnogo:chests/single_item/flower_bow",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.6
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/ruby_battle_axe",
-          "weight": 1
+          "value": "mnogo:chests/single_item/ruby_battle_axe",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/ruby_sekira",
-          "weight": 1
+          "value": "mnogo:chests/single_item/ruby_sekira",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/copper_crown",
-          "weight": 1
+          "value": "mnogo:chests/single_item/copper_crown",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/copper_crown_relic",
-          "weight": 1
+          "value": "mnogo:chests/single_item/copper_crown_relic",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/copper_helmet_reinforced",
-          "weight": 1
+          "value": "mnogo:chests/single_item/copper_helmet_reinforced",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/diamond_crown",
-          "weight": 1
+          "value": "mnogo:chests/single_item/diamond_crown",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/diamond_crown_relic",
-          "weight": 1
+          "value": "mnogo:chests/single_item/diamond_crown_relic",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/diamond_helmet_reinforced",
-          "weight": 1
+          "value": "mnogo:chests/single_item/diamond_helmet_reinforced",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/golden_crown_relic",
-          "weight": 1
+          "value": "mnogo:chests/single_item/golden_crown_relic",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/iron_crown_relic",
-          "weight": 1
+          "value": "mnogo:chests/single_item/iron_crown_relic",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/leather_crown_relic",
-          "weight": 1
+          "value": "mnogo:chests/single_item/leather_crown_relic",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         },
         {
           "type": "minecraft:loot_table",
-          "value": "mnogo:chests/chanced/flowered_compass",
-          "weight": 1
+          "value": "mnogo:chests/single_item/flowered_compass",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         }
       ],
       "rolls": 1.0
