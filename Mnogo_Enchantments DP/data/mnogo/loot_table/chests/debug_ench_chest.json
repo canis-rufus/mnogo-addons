@@ -1,0 +1,194 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/dread_aura_1"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/echo_of_presence_1"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/echo_of_presence_2"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/echo_of_presence_3"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/echo_of_presence_4"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/echo_of_presence_5"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/echo_of_presence_6"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/lightness_1"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/lightness_2"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/lightness_3"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/momentum_1"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/momentum_2"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/momentum_3"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/onslaught_1"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/reach_1"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/reach_2"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/reach_3"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/vitality_1"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/vitality_2"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/vitality_3"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/vitality_4"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

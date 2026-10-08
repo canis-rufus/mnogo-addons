@@ -1,0 +1,40 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "text": "Импульс",
+    "color": "green"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "movement_speed",
+        "operation": "add_value",
+        "id": "momentum_movement_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.05,
+          "per_level_above_first": 0.05
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "head"
+  ],
+  "supported_items": "#minecraft:head_armor",
+  "weight": 2,
+  "exclusive_set": [
+    "mnogo:dread_aura",
+    "mnogo:onslaught",
+    "mnogo:vitality"
+  ]
+}

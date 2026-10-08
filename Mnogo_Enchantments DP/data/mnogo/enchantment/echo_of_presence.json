@@ -1,0 +1,42 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "text": "Эхо присутствия"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "waypoint_transmit_range",
+        "operation": "add_value",
+        "id": "echo_of_presence_waypoint_transmit_range",
+        "amount": {
+          "type": "minecraft:lookup",
+          "values": [
+            200,
+            400,
+            800,
+            1600,
+            3200,
+            6400
+          ],
+          "fallback": 200
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 6,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 2,
+  "primary_items": "#minecraft:head_armor"
+}

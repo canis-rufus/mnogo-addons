@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "mnogo:echo_of_presence": 6
+                }
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/echo_of_presence"
+}

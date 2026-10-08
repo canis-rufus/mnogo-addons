@@ -1,0 +1,35 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "text": "Лёгкость",
+    "color": "gold"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "attack_speed",
+        "operation": "add_value",
+        "id": "lightness_attack_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.1,
+          "per_level_above_first": 0.1
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "weight": 2
+}

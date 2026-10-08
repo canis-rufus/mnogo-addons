@@ -1,0 +1,38 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "text": "Зловещая аура",
+    "color": "green"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "attack_damage",
+        "operation": "add_value",
+        "id": "dread_aura_attack_damage",
+        "amount": 1.0
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "armor",
+    "hand"
+  ],
+  "supported_items": "#mnogo:enchantable/status_upgradable_items",
+  "weight": 2,
+  "primary_items": "#minecraft:head_armor",
+  "exclusive_set": [
+    "mnogo:momentum",
+    "mnogo:onslaught",
+    "mnogo:vitality"
+  ]
+}

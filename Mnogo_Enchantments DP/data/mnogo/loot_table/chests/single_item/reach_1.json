@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "mnogo:reach": 1
+                },
+                "minecraft:item_model": "mnogo:reach"
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mnogo:chests/single_item/reach"
+}

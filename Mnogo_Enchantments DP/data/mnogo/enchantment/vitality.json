@@ -1,0 +1,42 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "text": "Жизненная сила",
+    "color": "green"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "max_health",
+        "operation": "add_value",
+        "id": "vitality_max_health",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 1
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 4,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "armor",
+    "hand"
+  ],
+  "supported_items": "#mnogo:enchantable/status_upgradable_items",
+  "weight": 2,
+  "primary_items": "#minecraft:head_armor",
+  "exclusive_set": [
+    "mnogo:dread_aura",
+    "mnogo:momentum",
+    "mnogo:onslaught"
+  ]
+}
