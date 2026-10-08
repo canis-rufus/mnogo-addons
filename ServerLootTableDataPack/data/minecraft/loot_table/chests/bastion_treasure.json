@@ -384,6 +384,42 @@
             "type": "minecraft:random_chance",
             "chance": 0.2
           }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/vitality_1",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/vitality_2",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/vitality_3",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/vitality_4",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         }
       ],
       "rolls": 1.0

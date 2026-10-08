@@ -491,6 +491,87 @@
             "type": "minecraft:random_chance",
             "chance": 0.6
           }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/echo_of_presence_1",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/echo_of_presence_2",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/echo_of_presence_3",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/echo_of_presence_4",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/echo_of_presence_5",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/echo_of_presence_6",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/lightness_1",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/lightness_2",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "mnogo:chests/single_item/lightness_3",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          }
         }
       ],
       "rolls": 1.0
