@@ -19,13 +19,6 @@
           "operation": "add_value",
           "amount": 2,
           "slot": "armor"
-        },
-        {
-          "id": "mnogo:diamond_crown_relic_speed",
-          "attribute": "minecraft:attack_speed",
-          "operation": "add_value",
-          "amount": 1.0,
-          "slot": "armor"
         }
       ],
       "replace": true
@@ -36,7 +29,9 @@
         "minecraft:rarity": "rare",
         "minecraft:item_model": "mnogo:diamond_crown_relic",
         "minecraft:item_name": "Алмазная корона",
-        "minecraft:enchantment_glint_override": true,
+        "minecraft:enchantments": {
+          "mnogo:onslaught": 1
+        },
         "minecraft:equippable": {
           "slot": "head",
           "asset_id": "mnogo:diamond_crown_relic"

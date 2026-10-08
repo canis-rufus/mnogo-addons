@@ -16,13 +16,6 @@
                   "operation": "add_value",
                   "amount": 1,
                   "slot": "armor"
-                },
-                {
-                  "id": "mnogo:golden_crown_relic_additional_hp",
-                  "attribute": "minecraft:max_health",
-                  "operation": "add_value",
-                  "amount": 4,
-                  "slot": "armor"
                 }
               ],
               "replace": true
@@ -33,7 +26,9 @@
                 "minecraft:rarity": "rare",
                 "minecraft:item_model": "mnogo:golden_crown_relic",
                 "minecraft:item_name": "Золотая корона",
-                "minecraft:enchantment_glint_override": true,
+                "minecraft:enchantments": {
+                  "mnogo:vitality": 4
+                },
                 "minecraft:equippable": {
                   "slot": "head",
                   "asset_id": "mnogo:golden_crown_relic"
